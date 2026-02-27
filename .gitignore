@@ -1,0 +1,11 @@
+# Next.js build output
+.next
+/.next
+build
+/build
+out
+/out
+
+node_modules
+/node_modules
+# Logs
