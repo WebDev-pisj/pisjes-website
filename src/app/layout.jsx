@@ -8,6 +8,9 @@ import { ProviderComponent } from "@/components/provider/Provider";
 
 export const metadata = {
   title: "Educve | Online Education Platform",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({ children }) {
