@@ -2,6 +2,7 @@ import { AboutSix } from "@/components/about/AboutSix";
 import { BlogSix } from "@/components/blogs/BlogSix";
 import { CategoryFour } from "@/components/category/CategoryFour";
 import { ContactOne } from "@/components/contacts/ContactOne";
+
 import { CoursesSix } from "@/components/courses/CoursesSix";
 import { FaqThree } from "@/components/faqs/FaqThree";
 import { HeroSix } from "@/components/hero/HeroSix";

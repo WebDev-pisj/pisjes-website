@@ -14,7 +14,7 @@ import { Layout } from "@/layouts/Layout";
 export default function HomeTwo() {
   return (
     <Layout header={2} footer={2} bodyClass="td_theme_2">
-      {/* hero */}
+      {/* Banner Home */}
       <HeroTwo />
 
       {/* category */}

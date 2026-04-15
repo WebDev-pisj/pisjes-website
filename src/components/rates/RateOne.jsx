@@ -1,9 +1,9 @@
 import React from "react";
 
-const rateIcon1 = "/home_2/cs_rate_feature_icon_1.svg";
-const rateIcon2 = "/home_2/cs_rate_feature_icon_2.svg";
-const rateIcon3 = "/home_2/cs_rate_feature_icon_3.svg";
-const rateIcon4 = "/home_2/cs_rate_feature_icon_4.svg";
+const rateIcon1 = "/home_2/acc-1.png";
+const rateIcon2 = "/home_2/acc-2.png";
+const rateIcon3 = "/home_2/acc-3.png";
+const rateIcon4 = "/home_2/acc-4.png";
 
 export const RateOne = () => {
   return (
@@ -13,7 +13,7 @@ export const RateOne = () => {
       data-wow-delay="0.2s"
     >
       <div className="td_rate_heading td_fs_20 td_semibold td_white_color">
-        Excellent Rated On Trustpilot
+        School Accredation
         <div className="td_rating_wrap">
           <div className="td_rating" data-rating="5">
             <i className="fa-regular fa-star"></i>
@@ -38,58 +38,75 @@ export const RateOne = () => {
             <div className="td_moving_box">
               <ul className="td_rate_feature_list td_mp_0">
                 <li>
-                  <div className="td_rate_feature_icon td_center td_white_bg">
+                  <div className="td_rate_feature_icon td_center">
                     <img src={rateIcon1} alt="Online Courses Icon" />
                   </div>
                   <div className="td_rate_feature_right">
                     <h3 className="td_fs_24 td_semibold td_white_color td_mb_4">
-                      30K+ Online Courses
+                     Cambridge Early Years Centre
                     </h3>
-                    <p className="mb-0 td_white_color td_opacity_7">
+                   {/*<p className="mb-0 td_white_color td_opacity_7">
                       Solid Questions Solving & Fresh Topics
-                    </p>
+                    </p> */}
                   </div>
                 </li>
 
                 <li>
-                  <div className="td_rate_feature_icon td_center td_white_bg">
+                  <div className="td_rate_feature_icon td_center ">
                     <img src={rateIcon2} alt="Expert Instructor Icon" />
                   </div>
                   <div className="td_rate_feature_right">
                     <h3 className="td_fs_24 td_semibold td_white_color td_mb_4">
-                      Expert Instructor
+                    Cambridge International Education
                     </h3>
-                    <p className="mb-0 td_white_color td_opacity_7">
-                      Learn and More expertise
-                    </p>
+                    
                   </div>
                 </li>
 
                 <li>
-                  <div className="td_rate_feature_icon td_center td_white_bg">
+                  <div className="td_rate_feature_icon td_center ">
                     <img src={rateIcon3} alt="Lifetime Access Icon" />
                   </div>
                   <div className="td_rate_feature_right">
                     <h3 className="td_fs_24 td_semibold td_white_color td_mb_4">
-                      Life time access
+                     Ministry of Education
                     </h3>
-                    <p className="mb-0 td_white_color td_opacity_7">
-                      Behind the word mountains
-                    </p>
+                    
                   </div>
                 </li>
 
                 <li>
-                  <div className="td_rate_feature_icon td_center td_white_bg">
+                  <div className="td_rate_feature_icon td_center ">
                     <img src={rateIcon4} alt="Certificate Icon" />
                   </div>
                   <div className="td_rate_feature_right">
                     <h3 className="td_fs_24 td_semibold td_white_color td_mb_4">
-                      Get Certificate
+                     UCAS Registered Centre
                     </h3>
-                    <p className="mb-0 td_white_color td_opacity_7">
-                      Behind the word mountains
-                    </p>
+                    
+                  </div>
+                </li>
+
+                 <li>
+                  <div className="td_rate_feature_icon td_center ">
+                    <img src={rateIcon4} alt="Certificate Icon" />
+                  </div>
+                  <div className="td_rate_feature_right">
+                    <h3 className="td_fs_24 td_semibold td_white_color td_mb_4">
+                      SAT College Board
+                    </h3>
+                    
+                  </div>
+                </li>
+                <li>
+                  <div className="td_rate_feature_icon td_center ">
+                    <img src={rateIcon4} alt="Certificate Icon" />
+                  </div>
+                  <div className="td_rate_feature_right">
+                    <h3 className="td_fs_24 td_semibold td_white_color td_mb_4">
+                       Authorised Open Centre for Oxford Admission Tests
+                    </h3>
+                    
                   </div>
                 </li>
               </ul>
@@ -97,63 +114,72 @@ export const RateOne = () => {
 
             <div className="td_moving_box">
               <ul className="td_rate_feature_list td_mp_0">
+                
                 <li>
-                  <div className="td_rate_feature_icon td_center td_white_bg">
+                  <div className="td_rate_feature_icon td_center ">
                     <img src={rateIcon1} alt="Online Courses Icon" />
                   </div>
                   <div className="td_rate_feature_right">
                     <h3 className="td_fs_24 td_semibold td_white_color td_mb_4">
-                      30K+ Online Courses
+                     Cambridge Early Years Centre
                     </h3>
-                    <p className="mb-0 td_white_color td_opacity_7">
-                      Solid Questions Solving & Fresh Topics
-                    </p>
+                    
                   </div>
                 </li>
                 <li>
-                  <div className="td_rate_feature_icon td_center td_white_bg">
+                  <div className="td_rate_feature_icon td_center ">
+                    <img src={rateIcon1} alt="Online Courses Icon" />
+                  </div>
+                  <div className="td_rate_feature_right">
+                    <h3 className="td_fs_24 td_semibold td_white_color td_mb_4">
+                     Cambridge International Education
+                    </h3>
+                    
+                  </div>
+                </li>
+                <li>
+                  <div className="td_rate_feature_icon td_center ">
+                    <img src={rateIcon1} alt="Online Courses Icon" />
+                  </div>
+                  <div className="td_rate_feature_right">
+                    <h3 className="td_fs_24 td_semibold td_white_color td_mb_4">
+                     Ministry of Education
+                    </h3>
+                    
+                  </div>
+                </li>
+                
+                
+                <li>
+                  <div className="td_rate_feature_icon td_center ">
+                    <img src={rateIcon1} alt="Online Courses Icon" />
+                  </div>
+                  <div className="td_rate_feature_right">
+                    <h3 className="td_fs_24 td_semibold td_white_color td_mb_4">
+                     SAT College Board
+                    </h3>
+                    
+                  </div>
+                </li>
+                <li>
+                  <div className="td_rate_feature_icon td_center ">
                     <img src={rateIcon2} alt="Expert Instructor Icon" />
                   </div>
                   <div className="td_rate_feature_right">
                     <h3 className="td_fs_24 td_semibold td_white_color td_mb_4">
-                      Expert Instructor
+                      Authorised Open Centre for Oxford Admission Tests
                     </h3>
-                    <p className="mb-0 td_white_color td_opacity_7">
-                      Learn and More expertise
-                    </p>
+                    
                   </div>
                 </li>
-                <li>
-                  <div className="td_rate_feature_icon td_center td_white_bg">
-                    <img src={rateIcon3} alt="Lifetime Access Icon" />
-                  </div>
-                  <div className="td_rate_feature_right">
-                    <h3 className="td_fs_24 td_semibold td_white_color td_mb_4">
-                      Life time access
-                    </h3>
-                    <p className="mb-0 td_white_color td_opacity_7">
-                      Behind the word mountains
-                    </p>
-                  </div>
-                </li>
-                <li>
-                  <div className="td_rate_feature_icon td_center td_white_bg">
-                    <img src={rateIcon4} alt="Certificate Icon" />
-                  </div>
-                  <div className="td_rate_feature_right">
-                    <h3 className="td_fs_24 td_semibold td_white_color td_mb_4">
-                      Get Certificate
-                    </h3>
-                    <p className="mb-0 td_white_color td_opacity_7">
-                      Behind the word mountains
-                    </p>
-                  </div>
-                </li>
+                
+                
               </ul>
             </div>
           </div>
         </div>
       </div>
+      <div className="td_height_112 td_height_lg_75" />
     </section>
   );
 };

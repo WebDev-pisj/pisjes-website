@@ -2,8 +2,8 @@ import React from "react";
 import Link from "next/link";
 import { VideoPlayer } from "../videos/VideoPlayer";
 
-const aboutImg1 = "/home_1/about_img_1.jpg";
-const aboutImg2 = "/home_1/about_img_2.jpg";
+const aboutImg1 = "/home_1/ground.jpg";
+const aboutImg2 = "/home_1/Library.jpg";
 const circleText = "/home_1/about_circle_text.svg";
 
 export const AboutOne = () => {
@@ -65,16 +65,17 @@ export const AboutOne = () => {
                   About us
                 </p>
                 <h2 className="td_section_title td_fs_48 mb-0">
-                  The largest & Most Diverse Universities in the United Emirates
+                 Best International School in Jeddah
                 </h2>
                 <p className="td_section_subtitle td_fs_18 mb-0">
-                  Far far away, behind the word mountains, far from the
-                  Consonantia, there live the blind texts. Separated they marks
-                  grove right at the coast of the Semantics a large language
-                  ocean
+                  Pakistan International School Jeddah English Section (PISJES) is a leading international school in Jeddah, offering world-class education, modern facilities, and a nurturing environment.
+
+We provide a comprehensive K–12 curriculum aligned with international standards, fostering academic excellence, critical thinking, creativity, problem-solving, and leadership skills. Our experienced faculty and state-of-the-art facilities support students’ academic and personal growth.
+
+With a transparent admissions process and a wide range of extracurricular activities, PISJES ensures holistic development for every student.
                 </p>
               </div>
-              <div className="td_mb_40">
+            {/*  <div className="td_mb_40">
                 <ul className="td_list td_style_5 td_mp_0">
                   <li>
                     <h3 className="td_fs_24 td_mb_8">Graduate Program</h3>
@@ -89,7 +90,7 @@ export const AboutOne = () => {
                     </p>
                   </li>
                 </ul>
-              </div>
+              </div> 
               <Link
                 href="/courses-grid-view"
                 className="td_btn td_style_1 td_radius_10 td_medium"
@@ -119,7 +120,7 @@ export const AboutOne = () => {
                     ></path>
                   </svg>
                 </span>
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>

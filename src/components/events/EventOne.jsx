@@ -17,11 +17,12 @@ export const EventOne = () => {
           data-wow-delay="0.2s"
         >
           <p className="td_section_subtitle_up td_fs_18 td_semibold td_spacing_1 td_mb_10 text-uppercase td_accent_color">
-            Event schedule
+            BLOG & ARTICLES
           </p>
           <h2 className="td_section_title td_fs_48 mb-0">
-            Upcoming Event Conference 2024 <br />
-            Host by Educve
+            
+Take A Look At The Latest  Events<br />
+
           </h2>
         </div>
         <div className="td_height_50 td_height_lg_50" />
@@ -51,7 +52,7 @@ export const EventOne = () => {
                       fill="currentColor"
                     />
                   </svg>
-                  Tsc Center, Northern Asia
+                  PISJES
                 </span>
               </Link>
               <div className="td_card_info">
@@ -105,7 +106,7 @@ export const EventOne = () => {
                   </div>
                   <h2 className="td_card_title td_fs_32 td_semibold td_mb_20">
                     <Link href="/event/ev-123">
-                      Innovate 2024: BBA Admission Conference
+                      Early Childhood Show
                     </Link>
                   </h2>
                   <p className="td_mb_30 td_fs_18">
@@ -208,8 +209,8 @@ export const EventOne = () => {
                   </div>
                   <h2 className="td_card_title td_fs_20 td_semibold td_mb_20">
                     <Link href="/event/ev-123">
-                      Education, Research and Innovation (ICERI 2024)
-                    </Link>
+                      Saudi Founding Day
+                      </Link>
                   </h2>
                   <span className="td_card_location td_medium td_heading_color">
                     <svg
@@ -225,7 +226,7 @@ export const EventOne = () => {
                         fill="currentColor"
                       />
                     </svg>
-                    Tsc Center, Northern Asia
+                   PISJES
                   </span>
                 </div>
               </div>
@@ -286,7 +287,7 @@ export const EventOne = () => {
                   </div>
                   <h2 className="td_card_title td_fs_20 td_semibold td_mb_20">
                     <Link href="/event/ev-123">
-                      Innovation, Creativity and Emerging Research (ICERI 2024)
+                     Science & Arts Exhibition
                     </Link>
                   </h2>
                   <span className="td_card_location td_medium td_heading_color">
@@ -303,7 +304,7 @@ export const EventOne = () => {
                         fill="currentColor"
                       />
                     </svg>
-                    Tsc Center, Northern Asia
+                    PISJES
                   </span>
                 </div>
               </div>
@@ -364,7 +365,7 @@ export const EventOne = () => {
                   </div>
                   <h2 className="td_card_title td_fs_20 td_semibold td_mb_20">
                     <Link href="/event/ev-123">
-                      Intellectual Curiosity & Educational Reform (ICERI 2024)
+                      Cambridge Learner Awards
                     </Link>
                   </h2>
                   <span className="td_card_location td_medium td_heading_color">
@@ -381,7 +382,7 @@ export const EventOne = () => {
                         fill="currentColor"
                       />
                     </svg>
-                    Tsc Center, Northern Asia
+                    PISJES
                   </span>
                 </div>
               </div>

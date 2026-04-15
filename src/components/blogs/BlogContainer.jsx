@@ -10,10 +10,10 @@ export const BlogContainer = ({ children }) => {
           {/* list */}
           <div className="col-lg-8">{children}</div>
 
-          {/* sidebar */}
+          {/* sidebar
           <div className="col-lg-4">
             <BlogSidebar />
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="td_height_120 td_height_lg_80" />
