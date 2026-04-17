@@ -8,7 +8,7 @@ import { HeaderSidebar } from "./HeaderSidebar";
 import { useMobilemenu } from "../../lib/hooks/useMobilemenu";
 import { useStickyHeader } from "../../lib/hooks/useStickyHeader";
 
-const Logo = "/darklogo.png";
+const Logo = "/white-logo.png";
 
 export const HeaderOne = () => {
   useMobilemenu();
@@ -64,11 +64,11 @@ export const HeaderOne = () => {
                               <Link href="/mission-vision">Vision &  Mission</Link>
                             </li>
                             <li>
-                              <Link href="/ourteam">Our Team</Link>
+                              <Link href="/our-team">Our Team</Link>
                             </li>
                           
                             <li>
-                              <Link href="/">Our Campus</Link>
+                              <Link href="/our-campus">Our Campus</Link>
                             </li>
                             <li>
                               <Link href="/">Pisjes Policies</Link>
@@ -84,7 +84,7 @@ export const HeaderOne = () => {
                               <Link href="/">School Timings</Link>
                             </li>
                             <li>
-                              <Link href="/team-members">Academic Calendar</Link>
+                              <Link href="/calendar">Academic Calendar</Link>
                             </li>
                           
                             <li>
@@ -205,7 +205,7 @@ export const HeaderOne = () => {
                               </Link>
                             </li>
                             <li>
-                              <Link href="/blog/b-123">Careers</Link>
+                              <Link href="https://portal.pisjes.edu.sa/career">Career portal</Link>
                             </li>
                           </ul>
                         </li>
@@ -213,15 +213,20 @@ export const HeaderOne = () => {
                           <Link href="#">E-Services</Link>
                           <ul>
                             <li>
-                              <Link href="/">Parent Portal</Link>
+                              <Link href="https://eschool.pisjes.edu.sa/">Parent Portal</Link>
                             </li>
                             <li>
-                              <Link href="/">
+                              <Link href="https://pisjes.online/site/login">
                               Query Portal
                               </Link>
                             </li>
                             <li>
-                              <Link href="/">MS Teams</Link>
+                              <Link href="https://portal.pisjes.edu.sa/procurement">Procurement Portal</Link>
+                            </li>
+                            
+                            
+                            <li>
+                              <Link href="https://teams.microsoft.com/">MS Teams</Link>
                             </li>
                           </ul>
                         </li>

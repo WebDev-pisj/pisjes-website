@@ -102,7 +102,8 @@
   --white-color: #fff;
   --heading-color: #00001b;
   --body-color: #555;
-  --accent-color: #890c25;
+  /* --accent-color: #890c25; */
+  --accent-color: #01411C;
   --gray-color: #f4f3ef;
   --border-color: #d9d9d9;
   --heading-font: "Euclid Circular A", sans-serif;
@@ -4861,7 +4862,7 @@ label {
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  background-color: #ecf2ff;
+  /* background-color: #ecf2ff; */
 }
 .td_wrap_box_1 .td_wrap_box_1_shape_1 {
   right: 30px;

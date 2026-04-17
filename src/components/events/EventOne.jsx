@@ -17,12 +17,11 @@ export const EventOne = () => {
           data-wow-delay="0.2s"
         >
           <p className="td_section_subtitle_up td_fs_18 td_semibold td_spacing_1 td_mb_10 text-uppercase td_accent_color">
-            BLOG & ARTICLES
+            Event schedule
           </p>
           <h2 className="td_section_title td_fs_48 mb-0">
-            
-Take A Look At The Latest  Events<br />
-
+            Upcoming Event Conference 2024 <br />
+            Host by Educve
           </h2>
         </div>
         <div className="td_height_50 td_height_lg_50" />
@@ -52,7 +51,7 @@ Take A Look At The Latest  Events<br />
                       fill="currentColor"
                     />
                   </svg>
-                  PISJES
+                  Tsc Center, Northern Asia
                 </span>
               </Link>
               <div className="td_card_info">
@@ -106,7 +105,7 @@ Take A Look At The Latest  Events<br />
                   </div>
                   <h2 className="td_card_title td_fs_32 td_semibold td_mb_20">
                     <Link href="/event/ev-123">
-                      Early Childhood Show
+                      Innovate 2024: BBA Admission Conference
                     </Link>
                   </h2>
                   <p className="td_mb_30 td_fs_18">
@@ -209,8 +208,8 @@ Take A Look At The Latest  Events<br />
                   </div>
                   <h2 className="td_card_title td_fs_20 td_semibold td_mb_20">
                     <Link href="/event/ev-123">
-                      Saudi Founding Day
-                      </Link>
+                      Education, Research and Innovation (ICERI 2024)
+                    </Link>
                   </h2>
                   <span className="td_card_location td_medium td_heading_color">
                     <svg
@@ -226,7 +225,7 @@ Take A Look At The Latest  Events<br />
                         fill="currentColor"
                       />
                     </svg>
-                   PISJES
+                    Tsc Center, Northern Asia
                   </span>
                 </div>
               </div>
@@ -287,7 +286,7 @@ Take A Look At The Latest  Events<br />
                   </div>
                   <h2 className="td_card_title td_fs_20 td_semibold td_mb_20">
                     <Link href="/event/ev-123">
-                     Science & Arts Exhibition
+                      Innovation, Creativity and Emerging Research (ICERI 2024)
                     </Link>
                   </h2>
                   <span className="td_card_location td_medium td_heading_color">
@@ -304,7 +303,7 @@ Take A Look At The Latest  Events<br />
                         fill="currentColor"
                       />
                     </svg>
-                    PISJES
+                    Tsc Center, Northern Asia
                   </span>
                 </div>
               </div>
@@ -365,7 +364,7 @@ Take A Look At The Latest  Events<br />
                   </div>
                   <h2 className="td_card_title td_fs_20 td_semibold td_mb_20">
                     <Link href="/event/ev-123">
-                      Cambridge Learner Awards
+                      Intellectual Curiosity & Educational Reform (ICERI 2024)
                     </Link>
                   </h2>
                   <span className="td_card_location td_medium td_heading_color">
@@ -382,7 +381,7 @@ Take A Look At The Latest  Events<br />
                         fill="currentColor"
                       />
                     </svg>
-                    PISJES
+                    Tsc Center, Northern Asia
                   </span>
                 </div>
               </div>
