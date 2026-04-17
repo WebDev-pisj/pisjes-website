@@ -19,6 +19,7 @@ export const HeaderOne = () => {
 
   return (
     <>
+        {/* <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> */}
       <header className="td_site_header td_style_1 td_type_3 td_sticky_header td_medium td_heading_color">
         <div className="td_main_header">
           <div className="container-fluid">
