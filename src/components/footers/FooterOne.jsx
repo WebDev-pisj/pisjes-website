@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-const footerLogo = "/footer_logo.svg";
+const footerLogo = "/darklogo.png";
 
 export const FooterOne = () => {
   return (
@@ -13,19 +13,19 @@ export const FooterOne = () => {
               <div className="td_footer_text_widget td_fs_18">
                 <img src={footerLogo} alt="Logo" />
                 <p>
-                  Far far away, behind the word mountains, far from the
-                  Consonantia, there live the blind texts.
+                 Pakistan International School Jeddah – English Section
                 </p>
               </div>
               <ul className="td_footer_address_widget td_medium td_mp_0">
                 <li>
                   <i className="fa-solid fa-phone-volume"></i>
-                  <a href="cal:+23(000)68603">+23 (000) 68 603</a>
+                  <a href="cal:+966-12-6738531">+966-12-6738531 / 6738670</a>
                 </li>
                 <li>
-                  <i className="fa-solid fa-location-dot"></i>66 broklyn golden
-                  street <br />
-                  600 New york. USA
+                  <i className="fa-solid fa-location-dot"></i>Building No. 5139, Dakhna Street<br />
+Secondary No. 7806, Al Rehab District<br />
+                 Jeddah, Saudi Arabia <br />
+                 Postal Code: 23344<br />
                 </li>
               </ul>
             </div>
@@ -46,12 +46,6 @@ export const FooterOne = () => {
                   <Link href="/contact">Contact</Link>
                 </li>
                 <li>
-                  <Link href="/refund">Refund</Link>
-                </li>
-                <li>
-                  <Link href="/help">Help Center</Link>
-                </li>
-                <li>
                   <Link href="/privacy">Privacy Policy</Link>
                 </li>
               </ul>
@@ -60,10 +54,10 @@ export const FooterOne = () => {
           <div className="td_footer_col">
             <div className="td_footer_widget">
               <h2 className="td_footer_widget_title td_fs_32 td_white_color td_medium td_mb_30">
-                Courses
+                Press Release
               </h2>
               <ul className="td_footer_widget_menu">
-                <li>
+                {/* <li>
                   <Link href="/course-details">Business Coach</Link>
                 </li>
                 <li>
@@ -80,7 +74,7 @@ export const FooterOne = () => {
                 </li>
                 <li>
                   <Link href="/course-details">Life Coach</Link>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
@@ -91,8 +85,7 @@ export const FooterOne = () => {
               </h2>
               <div className="td_newsletter td_style_1">
                 <p className="td_mb_20 td_opacity_7">
-                  Far far away, behind the word mountains, far from the
-                  Consonantia.
+                  Subscribe for the latest news from PISJ-ES.
                 </p>
                 <form action="#" className="td_newsletter_form">
                   <input
@@ -111,18 +104,16 @@ export const FooterOne = () => {
                 </form>
               </div>
               <div className="td_footer_social_btns td_fs_20">
-                <a href="#" className="td_center">
-                  <i className="fa-brands fa-facebook-f"></i>
-                </a>
-                <a href="#" className="td_center">
-                  <i className="fa-brands fa-x-twitter"></i>
-                </a>
-                <a href="#" className="td_center">
-                  <i className="fa-brands fa-instagram"></i>
-                </a>
-                <a href="#" className="td_center">
-                  <i className="fa-brands fa-pinterest-p"></i>
-                </a>
+                
+                 <a href="https://www.facebook.com/pisjesofficial1" className="td_center">
+                    <i className="fa-brands fa-facebook-f"></i>
+                  </a>
+                 <a href="https://instagram.com/pisjesofficial1" className="td_center">
+                    <i className="fa-brands fa-instagram"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/company/pakistan-international-school-jeddah-english-section/" className="td_center">
+                    <i className="fa-brands fa-linkedin"></i>
+                  </a>
               </div>
             </div>
           </div>
@@ -132,7 +123,8 @@ export const FooterOne = () => {
         <div className="container">
           <div className="td_footer_bottom_in">
             <p className="td_copyright mb-0">
-              Copyright ©educve | All Right Reserved
+              Copyright ©Pakistan International School Jeddah English Section | All Right Reserved
+              
             </p>
             <ul className="td_footer_widget_menu">
               <li>

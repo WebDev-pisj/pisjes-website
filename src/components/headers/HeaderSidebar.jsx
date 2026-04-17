@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-const logoBlack = "/logo_black.svg";
+const logoBlack = "/logo.png";
 
 export const HeaderSidebar = ({ showSidebar, toggleSidebar }) => {
   return (
@@ -18,8 +18,8 @@ export const HeaderSidebar = ({ showSidebar, toggleSidebar }) => {
 
         <div className="td_side_header_box">
           <h2 className="td_side_header_heading">
-            Do you have a project in your <br />
-            mind? Keep connect us.
+          
+       We’re here to assist you with inquiries, applications, and enrollment support.
           </h2>
         </div>
         <div className="td_side_header_box">
@@ -28,20 +28,24 @@ export const HeaderSidebar = ({ showSidebar, toggleSidebar }) => {
             <li>
               <i className="fa-solid fa-phone"></i>
               <span>
-                <a href="tel:+444547800112">+44 454 7800 112</a>
+                <a href="tel:+966-12-6738531">+966-12-6738531 / 6738670</a>
               </span>
             </li>
             <li>
               <i className="fa-solid fa-envelope"></i>
               <span>
-                <a href="mailto:example@gmail.com">example@gmail.com</a>
+                <a href="mailto:Secretary@pisjes.edu.sa">Secretary@pisjes.edu.sa</a>
               </span>
             </li>
             <li>
               <i className="fa-solid fa-location-dot"></i>
               <span>
-                50 Wall Street Suite, 44150 <br />
-                Ohio, United States
+                Pakistan International School Jeddah – English Section<br />
+Building No. 5139, Street Dakhna<br />
+Secondary No. 7806, Al Rehab District<br />
+Postal Code: 23344<br />
+Jeddah, Saudi Arabia<br /> 
+                
               </span>
             </li>
           </ul>

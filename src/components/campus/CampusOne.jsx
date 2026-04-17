@@ -1,10 +1,10 @@
 import React from "react";
 import Link from "next/link";
 
-const campusLife1 = "/home_1/campur_life_1.jpg";
-const campusLife2 = "/home_1/campur_life_2.jpg";
-const campusLife3 = "/home_1/campur_life_3.jpg";
-const campusLife4 = "/home_1/campur_life_4.jpg";
+const campusLife1 = "/home_1/campus_life_1.jpg";
+const campusLife2 = "/home_1/campus_life_2.jpg";
+const campusLife3 = "/home_1/campus_life_3.jpg";
+const campusLife4 = "/home_1/campus_life_4.jpg";
 
 export const CampusOne = () => {
   return (
@@ -58,15 +58,13 @@ export const CampusOne = () => {
             <div className="td_height_57 td_height_lg_0" />
             <div className="td_section_heading td_style_1">
               <h2 className="td_section_title td_fs_48 mb-0 td_white_color">
-                Navigate
+               Our Campus
               </h2>
               <p className="td_section_subtitle td_fs_18 mb-0 td_white_color td_opacity_7">
-                Far far away, behind the word mountains, far from the
-                Consonantia, there live the blind texts. Separated they marks
-                grove right at the coast of the Semantics
+                Your Campus is the place where learning meets inspiration. At Pakistan International School Jeddah English Section, our campus provides a vibrant, safe, and supportive environment designed to nurture academic growth, creativity, and personal development. Students experience a balanced lifestyle through engaging academics, co-curricular activities, and opportunities to build lifelong friendships.
               </p>
             </div>
-            <div className="td_btn_box">
+            {/* <div className="td_btn_box">
               <svg
                 width="299"
                 height="315"
@@ -105,7 +103,7 @@ export const CampusOne = () => {
                   </span>
                 </Link>
               </div>
-            </div>
+            </div>  */}
           </div>
           <div className="col-lg-6 offset-lg-1">
             <div className="row">
@@ -121,13 +119,13 @@ export const CampusOne = () => {
                   >
                     <img
                       src={campusLife1}
-                      alt="Campus Life"
+                      alt="Student Clubs"
                       className="w-100"
                     />
                   </Link>
                   <div className="td_card_info">
                     <h2 className="td_card_title mb-0 td_fs_18 td_semibold td_white_color">
-                      <Link href="/course-details">Campus Student Life</Link>
+                      <Link href="/course-details">Student Clubs</Link>
                     </h2>
                     <Link href="/course-details" className="td_card_btn">
                       <svg
@@ -189,13 +187,13 @@ export const CampusOne = () => {
                   >
                     <img
                       src={campusLife3}
-                      alt="Recreations & Wellness"
+                      alt="Career Counselling"
                       className="w-100"
                     />
                   </Link>
                   <div className="td_card_info">
                     <h2 className="td_card_title mb-0 td_fs_18 td_semibold td_white_color">
-                      <Link href="/course-details">Recreations & Wellness</Link>
+                      <Link href="/course-details">Student Career Counselling</Link>
                     </h2>
                     <Link href="/course-details" className="td_card_btn">
                       <svg
@@ -259,14 +257,14 @@ export const CampusOne = () => {
                   >
                     <img
                       src={campusLife2}
-                      alt="Arts & Cultural Program"
+                      alt="House System"
                       className="w-100"
                     />
                   </Link>
                   <div className="td_card_info">
                     <h2 className="td_card_title mb-0 td_fs_18 td_semibold td_white_color">
                       <Link href="/course-details">
-                        Arts & Cultural Program
+                    Student House System
                       </Link>
                     </h2>
                     <Link href="/course-details" className="td_card_btn">

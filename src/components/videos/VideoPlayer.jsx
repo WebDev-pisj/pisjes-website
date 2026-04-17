@@ -16,7 +16,7 @@ export const VideoPlayer = ({ trigger, src }) => {
         lockScroll
       >
         <Iframe
-          url={src ?? "https://www.youtube.com/embed/rRid6GCJtgc"}
+          url={src ?? "https://www.youtube.com/embed/omzJXmRa0TM?si=CwTIZkIZA0T5NhQw"}
           width="100%"
           height="400px"
           id=""

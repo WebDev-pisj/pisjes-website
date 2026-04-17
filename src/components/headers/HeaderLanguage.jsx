@@ -6,6 +6,14 @@ const WorldIcon = "/icons/world.svg";
 
 export const HeaderLanguage = () => {
   const [showLang, setShowLang] = useState(false);
+  const [currentLang, setCurrentLang] = useState("English");
+
+  const changeLanguage = (langCode, langLabel) => {
+    document.cookie = `googtrans=/en/${langCode}; path=/`;
+    setCurrentLang(langLabel);
+    setShowLang(false);
+    window.location.reload();
+  };
 
   return (
     <>
@@ -15,18 +23,19 @@ export const HeaderLanguage = () => {
           showLang && "active"
         }`}
       >
-        <span>English</span>
+        <span>{currentLang}</span>
         <img src={WorldIcon} alt="" className="td_header_dropdown_btn_icon" />
       </button>
       <ul className="td_header_dropdown_list td_mp_0">
         <li>
-          <a href="#">English</a>
+          <button type="button" onClick={() => changeLanguage("en", "English")}>
+            English
+          </button>
         </li>
         <li>
-          <a href="#">Spanish</a>
-        </li>
-        <li>
-          <a href="#">Russian</a>
+          <button type="button" onClick={() => changeLanguage("ar", "Arabic")}>
+            Arabic
+          </button>
         </li>
       </ul>
     </>

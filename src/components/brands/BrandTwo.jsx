@@ -3,9 +3,9 @@
 import React from "react";
 import { SlickSlider } from "../slick_slider/SlickSlider";
 
-const brand1 = "/home_7/brand_1.svg";
-const brand2 = "/home_7/brand_2.svg";
-const brand3 = "/home_7/brand_3.svg";
+const brand1 = "/home_7/UCAS_logo.png";
+const brand2 = "/home_7/Cambridge-Logo-1.png";
+const brand3 = "/home_7/College-Board-Sat-Exam.jpg";
 const brand4 = "/home_7/brand_4.svg";
 const brand5 = "/home_7/brand_5.svg";
 const brand6 = "/home_7/brand_6.svg";

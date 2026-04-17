@@ -19,10 +19,10 @@ export const FunfactOne = () => {
               </div>
               <div className="td_funfact_right">
                 <h3 className="td_fs_36 td_white_color mb-0">
-                  <Odometer end={78} suffix={"+"} />
+                  <Odometer end={136} suffix={"+"} />
                 </h3>
                 <p className="mb-0 td_white_color td_opacity_7">
-                  Classes Complete
+                  Classes Rooms
                 </p>
               </div>
             </div>
@@ -52,7 +52,7 @@ export const FunfactOne = () => {
               </div>
               <div className="td_funfact_right">
                 <h3 className="td_fs_36 td_white_color mb-0">
-                  <Odometer end={20} suffix={"+"} />
+                  <Odometer end={5000} suffix={"+"} />
                 </h3>
                 <p className="mb-0 td_white_color td_opacity_7">
                   Total Students
@@ -85,10 +85,10 @@ export const FunfactOne = () => {
               </div>
               <div className="td_funfact_right">
                 <h3 className="td_fs_36 td_white_color mb-0">
-                  <Odometer end={400} suffix={"+"} />
+                  <Odometer end={8} suffix={"+"} />
                 </h3>
                 <p className="mb-0 td_white_color td_opacity_7">
-                  Library Books
+                  Fully equipped labs
                 </p>
               </div>
             </div>
@@ -118,10 +118,10 @@ export const FunfactOne = () => {
               </div>
               <div className="td_funfact_right">
                 <h3 className="td_fs_36 td_white_color mb-0">
-                  <Odometer end={800} suffix={"+"} />
+                  <Odometer end={600} suffix={"+"} />
                 </h3>
                 <p className="mb-0 td_white_color td_opacity_7">
-                  Certified Teachers
+                  Highly Qualified Staff
                 </p>
               </div>
             </div>

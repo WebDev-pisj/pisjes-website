@@ -2,8 +2,9 @@
 
 import React from "react";
 import { useHobble } from "../../lib/hooks/useHobble";
+import Link from "next/link";
 
-const featureImg = "home_1/feature_img.jpg";
+const featureImg = "home_1/admsn.jpg";
 
 export const FeatureOne = () => {
   useHobble();
@@ -23,22 +24,71 @@ export const FeatureOne = () => {
             />
           </div>
           <div
-            className="td_features_content td_white_bg td_radius_10 wow fadeInRight"
+            className="td_features_content td_accent_bg td_radius_10 wow fadeInRight"
             data-wow-duration="1s"
             data-wow-delay="0.25s"
           >
             <div className="td_section_heading td_style_1">
-              <p className="td_section_subtitle_up td_fs_18 td_semibold td_spacing_1 td_mb_10 text-uppercase td_accent_color">
-                CAMPUS
+              <p className="td_section_subtitle_up td_fs_18 td_semibold td_spacing_1 td_mb_10 text-uppercase  td_accent_color">
+               {/* CAMPUS */}
               </p>
-              <h2 className="td_section_title td_fs_48 mb-0">
-                Campus is your Dream Lifestyle
+              <h2 className="td_section_title td_fs_48 mb-0 td_white_color">
+                Admissions 2026-27
               </h2>
             </div>
 
             <div className="td_height_50 td_height_lg_50" />
-
-            <ul className="td_feature_list td_mp_0">
+            <div className="td_feature_info">
+                  
+                  <p className="td_white_color td_fs_14  td_opacity_7 mb-0">
+                   Give your child the opportunity to grow, learn, and succeed at one of the leading international schools in Jeddah. For application details, admission requirements, and enrollment guidance, our team is ready to assist you. Contact us today and take the first step toward a bright academic future. </p>
+                </div>
+ <div className="td_btn_box">
+              <svg
+                width="299"
+                height="315"
+                viewBox="0 0 299 315"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g opacity="0.75" clipPath="url(#clip0_34_2222)">
+                  <path
+                    d="M242.757 275.771C242.505 275.771 242.253 275.75 242.005 275.707C32.3684 239.98 0.342741 8.13005 0.0437414 5.79468C-0.108609 4.51176 0.22739 3.21754 0.9787 2.19335C1.73001 1.16916 2.8359 0.497795 4.05598 0.32519C5.27606 0.152585 6.5117 0.492693 7.4943 1.27158C8.4769 2.05047 9.12704 3.20518 9.3034 4.48471C9.59772 6.7514 40.7872 231.477 243.5 266.022C244.658 266.22 245.702 266.868 246.426 267.838C247.15 268.808 247.5 270.028 247.406 271.256C247.312 272.484 246.782 273.63 245.921 274.467C245.06 275.303 243.93 275.769 242.757 275.771Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M299.002 275.455C271.709 283.305 237.446 297.872 215.562 314.617L235.465 269.602L223.318 221.648C242.099 242.137 273.428 262.728 299.002 275.455Z"
+                    fill="white"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_34_2222">
+                    <rect
+                      width="299"
+                      height="314"
+                      fill="white"
+                      transform="translate(0 0.421875)"
+                    />
+                  </clipPath>
+                </defs>
+              </svg>
+              <div className="td_btn_box_in">
+                <Link
+                  href="/courses-grid-view"
+                  className="td_btn td_style_1 td_radius_10 td_medium td_fs_14"
+                >
+                  <span className="td_btn_in td_heading_color td_white_bg">
+                    <span>More Details Here</span>
+                  </span>
+                </Link>
+              </div>
+            </div>
+          
+          {/*
+          <h3 className="td_fs_32 td_semibold td_mb_15">
+                    Student Life
+                  </h3>
+          <ul className="td_feature_list td_mp_0">
               <li>
                 <div className="td_feature_icon td_center">
                   <svg
@@ -358,7 +408,7 @@ export const FeatureOne = () => {
                   </p>
                 </div>
               </li>
-            </ul>
+            </ul> */}
           </div>
 
           <div className="td_features_shape_1 position-absolute td_accent_color td_hover_layer_3">

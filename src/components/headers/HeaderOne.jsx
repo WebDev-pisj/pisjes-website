@@ -8,7 +8,7 @@ import { HeaderSidebar } from "./HeaderSidebar";
 import { useMobilemenu } from "../../lib/hooks/useMobilemenu";
 import { useStickyHeader } from "../../lib/hooks/useStickyHeader";
 
-const Logo = "/logo.svg";
+const Logo = "/darklogo.png";
 
 export const HeaderOne = () => {
   useMobilemenu();
@@ -19,6 +19,7 @@ export const HeaderOne = () => {
 
   return (
     <>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
       <header className="td_site_header td_style_1 td_type_3 td_sticky_header td_medium td_heading_color">
         <div className="td_main_header">
           <div className="container-fluid">
@@ -29,18 +30,21 @@ export const HeaderOne = () => {
                   <img src={Logo} alt="Logo" />
                 </Link>
                 <div className="td_header_social_btns">
-                  <a href="#" className="td_center">
+                  <a href="https://www.facebook.com/pisjesofficial1" className="td_center">
                     <i className="fa-brands fa-facebook-f"></i>
                   </a>
-                  <a href="#" className="td_center">
+                 {/* <a href="#" className="td_center">
                     <i className="fa-brands fa-x-twitter"></i>
-                  </a>
-                  <a href="#" className="td_center">
+                  </a> */}
+                  <a href="https://instagram.com/pisjesofficial1" className="td_center">
                     <i className="fa-brands fa-instagram"></i>
                   </a>
-                  <a href="#" className="td_center">
-                    <i className="fa-brands fa-pinterest-p"></i>
+                  <a href="https://www.linkedin.com/company/pakistan-international-school-jeddah-english-section/" className="td_center">
+                    <i className="fa-brands fa-linkedin"></i>
                   </a>
+                  {/* <a href="#" className="td_center">
+                    <i className="fa-brands fa-pinterest-p"></i>
+                  </a> */}
                 </div>
               </div>
 
@@ -50,36 +54,47 @@ export const HeaderOne = () => {
                     <div className="td_nav_list_wrap_in">
                       {/* first three */}
                       <ul className="td_nav_list">
-                        <li className="menu-item-has-children">
+                         <li> 
                           <Link href="/">Home</Link>
-                          <ul>
-                            <li>
-                              <Link href="/">University</Link>
-                            </li>
-                            <li>
-                              <Link href="/home-v2">Online Educations</Link>
-                            </li>
-                            <li>
-                              <Link href="/home-v3">Education</Link>
-                            </li>
-                            <li>
-                              <Link href="/home-v4">Kindergarten</Link>
-                            </li>
-                            <li>
-                              <Link href="/home-v5">Modern Language</Link>
-                            </li>
-                            <li>
-                              <Link href="/home-v6">Al-Quran Learning</Link>
-                            </li>
-                            <li>
-                              <Link href="/home-v7">Motivation Speaker</Link>
-                            </li>
-                            <li>
-                              <Link href="/home-v8">Kitchen Coach</Link>
-                            </li>
-                          </ul>
                         </li>
                         <li className="menu-item-has-children">
+                          <Link href="/">About</Link>
+                          <ul>
+                            <li>
+                              <Link href="/mission-vision">Vision &  Mission</Link>
+                            </li>
+                            <li>
+                              <Link href="/ourteam">Our Team</Link>
+                            </li>
+                          
+                            <li>
+                              <Link href="/">Our Campus</Link>
+                            </li>
+                            <li>
+                              <Link href="/">Pisjes Policies</Link>
+                            </li>
+                           
+                          </ul>
+                        </li>
+
+                        <li className="menu-item-has-children">
+                          <Link href="/">Academics</Link>
+                          <ul>
+                            <li>
+                              <Link href="/">School Timings</Link>
+                            </li>
+                            <li>
+                              <Link href="/team-members">Academic Calendar</Link>
+                            </li>
+                          
+                            <li>
+                              <Link href="/">Document Requests ( IGCSE & A Levels)</Link>
+                            </li>
+                          
+                           
+                          </ul>
+                        </li>
+                    {/*    <li className="menu-item-has-children">
                           <Link href="/products">Courses</Link>
                           <ul>
                             <li>
@@ -101,10 +116,8 @@ export const HeaderOne = () => {
                               <Link href="/course-details">Course Details</Link>
                             </li>
                           </ul>
-                        </li>
-                        <li>
-                          <Link href="/about">About</Link>
-                        </li>
+                        </li> */}
+                       
                       </ul>
 
                       <Link className="td_site_branding" href="/">
@@ -114,87 +127,103 @@ export const HeaderOne = () => {
                       {/* last three */}
                       <ul className="td_nav_list">
                         <li className="menu-item-has-children td_mega_menu">
-                          <Link href="#">Pages</Link>
+                          <Link href="#">Admissions</Link>
                           <ul className="td_mega_wrapper">
                             <li className="menu-item-has-children">
-                              <h4>Inner Pages</h4>
+                              <h4>Session 2026-27</h4>
                               <ul>
                                 <li>
-                                  <Link href="/event">Upcoming Event</Link>
+                                  <Link href="/event">Entrance Exam Registration</Link>
                                 </li>
                                 <li>
                                   <Link href="/event/ev-123">
-                                    Event Details
+                                    Entrance Exam Schedule
                                   </Link>
                                 </li>
                                 <li>
-                                  <Link href="/team-members">Team Members</Link>
+                                  <Link href="/event/ev-123">
+                                    Age Criteria
+                                  </Link>
+                                </li>
+                                 <li>
+                                  <Link href="/event/ev-123">
+                                    Documents Required
+                                  </Link>
+                                </li>
+                                <li>
+                                  <Link href="/team-members">Admissions Process Guideline</Link>
                                 </li>
                                 <li>
                                   <Link href="/team-members/t-123">
-                                    Team Details
+                                    Entrance Exam Syllabus Outline
                                   </Link>
                                 </li>
                               </ul>
                             </li>
                             <li className="menu-item-has-children">
-                              <h4>Inner Pages</h4>
+                              <h4>Fee Structure</h4>
                               <ul>
                                 <li>
                                   <Link href="/students-registrations">
-                                    Students Registrations
+                                    Fee Payment System
                                   </Link>
                                 </li>
                                 <li>
                                   <Link href="/instructor-registrations">
-                                    Instructor Registrations
+                                    Fee Structure
                                   </Link>
                                 </li>
                                 <li>
-                                  <Link href="/signup">Signup</Link>
+                                  <Link href="/signup">Clearance Of School Dues</Link>
                                 </li>
                                 <li>
-                                  <Link href="/signin">Signin</Link>
+                                  <Link href="/signin">Terms & Conditions</Link>
                                 </li>
                               </ul>
                             </li>
                             <li className="menu-item-has-children">
-                              <h4>Shop Pages</h4>
+                              <h4>Others</h4>
                               <ul>
                                 <li>
-                                  <Link href="/faqs">Faqs</Link>
+                                  <Link href="/faqs">School Leaving Certificate</Link>
                                 </li>
-                                <li>
-                                  <Link href="/cart">Cart</Link>
-                                </li>
-                                <li>
-                                  <Link href="/checkout">Checkout</Link>
-                                </li>
-                                <li>
-                                  <Link href="/error">Error</Link>
-                                </li>
+                               
+                              
                               </ul>
                             </li>
                           </ul>
                         </li>
                         <li className="menu-item-has-children">
-                          <Link href="#">Blogs</Link>
+                          <Link href="#">Contact</Link>
                           <ul>
                             <li>
-                              <Link href="/blog">Blogs</Link>
+                              <Link href="/contact/contactDetails">Contact Details</Link>
                             </li>
                             <li>
-                              <Link href="/blog/with-sidebar">
-                                Blog With Sidebar
+                              <Link href="/">
+                                SMC
                               </Link>
                             </li>
                             <li>
-                              <Link href="/blog/b-123">Blog Details</Link>
+                              <Link href="/blog/b-123">Careers</Link>
                             </li>
                           </ul>
                         </li>
-                        <li>
-                          <Link href="/contact">Contact</Link>
+                         <li className="menu-item-has-children">
+                          <Link href="#">E-Services</Link>
+                          <ul>
+                            <li>
+                              <Link href="/">Parent Portal</Link>
+                            </li>
+                            <li>
+                              <Link href="/">
+                              Query Portal
+                              </Link>
+                            </li>
+                            <li>
+                              <Link href="/">MS Teams</Link>
+                            </li>
+                          </ul>
                         </li>
                       </ul>
                     </div>

@@ -1,5 +1,5 @@
 import { Layout } from "@/layouts/Layout";
-import { HeroOne } from "@/components/hero/HeroOne";
+import { HeroPISJES } from "@/components/hero/HeroPISJES";
 import { AboutOne } from "@/components/about/AboutOne";
 import { BlogOne } from "@/components/blogs/BlogOne";
 import { CampusOne } from "@/components/campus/CampusOne";
@@ -7,41 +7,64 @@ import { CoursesOne } from "@/components/courses/CoursesOne";
 import { DepartmentOne } from "@/components/departments/DepartmentOne";
 import { EventOne } from "@/components/events/EventOne";
 import { FeatureOne } from "@/components/features/FeatureOne";
-import { TestimonialOne } from "@/components/testimonials/TestimonialOne";
+import { RateOne } from "@/components/rates/RateOne";
+import { TestimonialThree } from "@/components/testimonials/TestimonialThree";
 import { VideoOne } from "@/components/videos/VideoOne";
+import { FunfactOne } from "@/components/fun_facts/FunfactOne";
+import { BrandTwo } from "@/components/brands/BrandTwo";
 
 export default function Home() {
   return (
     <Layout header={1} footer={1}>
-      {/* hero */}
-      <HeroOne />
-
-      {/* about */}
+      {/*MAin Banner*/}
+      <HeroPISJES />
+           
+      {/* about section of homepage*/}
       <AboutOne />
 
-      {/* popular */}
-      <CoursesOne />
 
-      {/* feature */}
+ {/* School Acceredation */}
+            <RateOne />
+      {/* popular 
+      <CoursesOne />*/}
+
+      {/* Admissions section */}
       <FeatureOne />
 
-      {/* campus */}
+        {/* School fun facts in numbers*/}
+            <FunfactOne />
+
+
+   {/* Cambridge Awardees Slider */}   
+<TestimonialThree />
+      
+
+        {/* departments 
+      <DepartmentOne /> */}
+
+     
+      
+      {/* our campus student life */}
       <CampusOne />
+      
 
-      {/* departments */}
-      <DepartmentOne />
 
-      {/* video */}
-      <VideoOne />
 
-      {/* event schedule */}
-      <EventOne />
+     {/*  brands 
+      <div className="td_height_120 td_height_lg_80" />
+      <BrandTwo />
+      <div className="td_height_120 td_height_lg_80" />
 
-      {/* testimonial */}
-      <TestimonialOne />
+*/}
 
-      {/* blog */}
-      <BlogOne />
+      {/* video 
+      <VideoOne />*/}
+
+      {/* Gallery Events*/}
+      <EventOne />   
+
+      {/* blog 
+      <BlogOne />*/}
     </Layout>
   );
 }

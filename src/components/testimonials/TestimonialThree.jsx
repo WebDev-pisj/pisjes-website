@@ -14,33 +14,33 @@ const testimonialData = [
   {
     id: 1,
     rating: 5,
-    text: "Far far away, behind the mountains, far from the Conson antia, there live the blind texts. Separated they marks word for a live new.",
+    text: "Top in Mathematics – Western Province, Saudi Arabia",
     avatar: avatar1,
-    name: "Antoni Alex",
+    name: "Fawaz Rizwan",
     designation: "10th Batch Students",
   },
   {
     id: 2,
     rating: 5,
-    text: "Far far away, behind the mountains, far from the Conson antia, there live the blind texts. Separated they marks word for a live new.",
+    text: "Top in Mathematics – Western Province, Saudi Arabia",
     avatar: avatar2,
-    name: "Revert Alexan",
+    name: "Fatima Noor ",
     designation: "15th Batch Students",
   },
   {
     id: 3,
     rating: 4.5,
-    text: "Far far away, behind the mountains, far from the Conson antia, there live the blind texts. Separated they marks word for a live new.",
+    text: "Top in Mathematics – Western Province, Saudi Arabia",
     avatar: avatar3,
-    name: "Anthonia Alex",
+    name: "Ahmed Habib",
     designation: "12th Batch Students",
   },
   {
     id: 4,
     rating: 5,
-    text: "Far far away, behind the mountains, far from the Conson antia, there live the blind texts. Separated they marks word for a live new.",
+    text: "Top in Mathematics – Western Province, Saudi Arabia",
     avatar: avatar4,
-    name: "Arke Marey",
+    name: "Maria Khalid",
     designation: "09th Batch Students",
   },
 ];
@@ -155,12 +155,13 @@ export const TestimonialThree = () => {
           data-wow-duration="1s"
           data-wow-delay="0.2s"
         >
-          <p className="td_section_subtitle_up td_fs_18 td_semibold td_spacing_1 td_mb_10 text-uppercase td_accent_color">
+         {/* <p className="td_section_subtitle_up td_fs_18 td_semibold td_spacing_1 td_mb_10 text-uppercase td_accent_color">
             Testimonials
-          </p>
+          </p> */}
           <h2 className="td_section_title td_fs_48 mb-0">
-            What Our Students Say About <br />
-            Our Services
+            Outstanding Cambridge Learner Awards
+ <br />
+           
           </h2>
         </div>
         <div className="td_height_50 td_height_lg_50" />
@@ -176,11 +177,11 @@ export const TestimonialThree = () => {
                 {testimonialData.map((testimonial) => (
                   <div className="td_slide" key={testimonial.id}>
                     <div className="td_testimonial td_style_1 td_type_2 td_white_bg td_radius_5">
-                      <div
+                      {/* <div
                         className="td_rating td_mb_20"
                         data-rating={testimonial.rating}
                       >
-                        <i className="fa-regular fa-star"></i>
+                         <i className="fa-regular fa-star"></i>
                         <i className="fa-regular fa-star"></i>
                         <i className="fa-regular fa-star"></i>
                         <i className="fa-regular fa-star"></i>
@@ -192,7 +193,7 @@ export const TestimonialThree = () => {
                           <i className="fa-solid fa-star fa-fw"></i>
                           <i className="fa-solid fa-star fa-fw"></i>
                         </div>
-                      </div>
+                      </div> */}
                       <blockquote className="td_testimonial_text td_fs_18 td_medium td_heading_color td_mb_30 td_opacity_9">
                         {testimonial.text}
                       </blockquote>
@@ -291,6 +292,7 @@ export const TestimonialThree = () => {
           </div>
         </div>
       </div>
+      <div className="td_height_112 td_height_lg_75" />
     </section>
   );
 };
