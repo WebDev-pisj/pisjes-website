@@ -94,8 +94,7 @@ export const PisjesMissionVision = () => {
                   <ul className="td_list td_style_5 td_mp_0">
                     <li>
                      <p className="td_fs_18 mb-0">
-                      "PISJES is committed to creating an all-encompassing learning community” Provide our students with holistic and well-rounded education within a challenging and nurturing environment to facilitate them in becoming a ‘whole person’: Intellectually, Physically, Emotionally, Socially and Morally. <br />
-                  
+                      &quot;PISJES is committed to creating an all-encompassing learning community Provide our students with holistic and well-rounded education within a challenging and nurturing environment to facilitate them in becoming a &quot;whole person&quot;: Intellectually, Physically, Emotionally, Socially and Morally. <br />
                       </p>
                       
                     </li>
