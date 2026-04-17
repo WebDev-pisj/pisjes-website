@@ -9,3 +9,6 @@ out
 node_modules
 /node_modules
 # Logs
+.env
+*.log
+package-lock.json

@@ -12,45 +12,39 @@ import { TestimonialThree } from "@/components/testimonials/TestimonialThree";
 import { VideoOne } from "@/components/videos/VideoOne";
 import { FunfactOne } from "@/components/fun_facts/FunfactOne";
 import { BrandTwo } from "@/components/brands/BrandTwo";
+import { HomeAnnouncementPopup } from "@/components/common/HomeAnnouncementPopup";
 
 export default function Home() {
   return (
     <Layout header={1} footer={1}>
+      <HomeAnnouncementPopup />
       {/*MAin Banner*/}
       <HeroPISJES />
-           
+
       {/* about section of homepage*/}
       <AboutOne />
 
-
- {/* School Acceredation */}
-            <RateOne />
+      {/* School Acceredation */}
+      <RateOne />
       {/* popular 
       <CoursesOne />*/}
 
       {/* Admissions section */}
       <FeatureOne />
 
-        {/* School fun facts in numbers*/}
-            <FunfactOne />
+      {/* School fun facts in numbers*/}
+      <FunfactOne />
 
+      {/* Cambridge Awardees Slider */}
+      <TestimonialThree />
 
-   {/* Cambridge Awardees Slider */}   
-<TestimonialThree />
-      
-
-        {/* departments 
+      {/* departments 
       <DepartmentOne /> */}
 
-     
-      
       {/* our campus student life */}
       <CampusOne />
-      
 
-
-
-     {/*  brands 
+      {/*  brands 
       <div className="td_height_120 td_height_lg_80" />
       <BrandTwo />
       <div className="td_height_120 td_height_lg_80" />
@@ -61,7 +55,7 @@ export default function Home() {
       <VideoOne />*/}
 
       {/* Gallery Events*/}
-      <EventOne />   
+      <EventOne />
 
       {/* blog 
       <BlogOne />*/}
