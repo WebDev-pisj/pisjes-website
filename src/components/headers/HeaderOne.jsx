@@ -200,12 +200,15 @@ export const HeaderOne = () => {
                               <Link href="/contact/contactDetails">Contact Details</Link>
                             </li>
                             <li>
-                              <Link href="/">
+                              <Link href="/smc">
                                 SMC
                               </Link>
                             </li>
                             <li>
                               <Link href="https://portal.pisjes.edu.sa/career">Career portal</Link>
+                            </li>
+                             <li>
+                              <Link href="https://portal.pisjes.edu.sa/procurement">Procurement Portal</Link>
                             </li>
                           </ul>
                         </li>
@@ -220,9 +223,7 @@ export const HeaderOne = () => {
                               Query Portal
                               </Link>
                             </li>
-                            <li>
-                              <Link href="https://portal.pisjes.edu.sa/procurement">Procurement Portal</Link>
-                            </li>
+                           
                             
                             
                             <li>

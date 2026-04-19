@@ -26,12 +26,12 @@ export const HeroPISJES = () => {
              
               From early years to graduation, we provide a world-class education that inspires curiosity, creativity, and academic success.
             </p>
-           {/* <Link
+            <Link
               href="/courses-grid-view"
               className="td_btn td_style_1 td_radius_10 td_medium"
             >
               <span className="td_btn_in td_white_color td_accent_bg">
-                <span>View Our Program</span>
+                <span>Our Curriculum</span>
                 <svg
                   width="19"
                   height="20"
@@ -55,7 +55,7 @@ export const HeroPISJES = () => {
                   />
                 </svg>
               </span>
-            </Link> */}
+            </Link> 
           </div>
         </div>
         <div className="td_lines">
@@ -68,38 +68,7 @@ export const HeroPISJES = () => {
 
       <div className="container">
         <div className="td_hero_btn_group">
-       {/*  <Link
-            href="/courses-grid-view"
-            className="td_btn td_style_1 td_radius_10 td_medium td_fs_20 wow fadeInUp"
-            data-wow-duration="0.9s"
-            data-wow-delay="0.35s"
-          >
-            <span className="td_btn_in td_white_color td_accent_bg">
-              <span>Early Years</span>
-              <svg
-                width="19"
-                height="20"
-                viewBox="0 0 19 20"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M15.1575 4.34302L3.84375 15.6567"
-                  stroke="currentColor"
-                  strokeWidth="1.5"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-                <path
-                  d="M15.157 11.4142C15.157 11.4142 16.0887 5.2748 15.157 4.34311C14.2253 3.41142 8.08594 4.34314 8.08594 4.34314"
-                  stroke="currentColor"
-                  strokeWidth="1.5"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-              </svg>
-            </span>
-          </Link>  */}
+
           
           <Link
             href="/courses-grid-view"
@@ -108,29 +77,9 @@ export const HeroPISJES = () => {
             data-wow-delay="0.35s"
           >
             <span className="td_btn_in td_white_color td_accent_bg">
-              <span>Junior School</span>
-              <svg
-                width="19"
-                height="20"
-                viewBox="0 0 19 20"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M15.1575 4.34302L3.84375 15.6567"
-                  stroke="currentColor"
-                  strokeWidth="1.5"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-                <path
-                  d="M15.157 11.4142C15.157 11.4142 16.0887 5.2748 15.157 4.34311C14.2253 3.41142 8.08594 4.34314 8.08594 4.34314"
-                  stroke="currentColor"
-                  strokeWidth="1.5"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-              </svg>
+              <span>
+Leaders Community</span>
+             
             </span>
           </Link>
           <Link
@@ -140,29 +89,9 @@ export const HeroPISJES = () => {
             data-wow-delay="0.35s"
           >
             <span className="td_btn_in td_white_color td_accent_bg">
-              <span>Middle School</span>
-              <svg
-                width="19"
-                height="20"
-                viewBox="0 0 19 20"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M15.1575 4.34302L3.84375 15.6567"
-                  stroke="currentColor"
-                  strokeWidth="1.5"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-                <path
-                  d="M15.157 11.4142C15.157 11.4142 16.0887 5.2748 15.157 4.34311C14.2253 3.41142 8.08594 4.34314 8.08594 4.34314"
-                  stroke="currentColor"
-                  strokeWidth="1.5"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-              </svg>
+              <span>
+Global Learners</span>
+              
             </span>
           </Link>
           <Link
@@ -172,29 +101,8 @@ export const HeroPISJES = () => {
             data-wow-delay="0.35s"
           >
             <span className="td_btn_in td_white_color td_accent_bg">
-              <span>Senior School</span>
-              <svg
-                width="19"
-                height="20"
-                viewBox="0 0 19 20"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M15.1575 4.34302L3.84375 15.6567"
-                  stroke="currentColor"
-                  strokeWidth="1.5"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-                <path
-                  d="M15.157 11.4142C15.157 11.4142 16.0887 5.2748 15.157 4.34311C14.2253 3.41142 8.08594 4.34314 8.08594 4.34314"
-                  stroke="currentColor"
-                  strokeWidth="1.5"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-              </svg>
+              <span>Unique Experience</span>
+              
             </span>
           </Link>
         </div>
