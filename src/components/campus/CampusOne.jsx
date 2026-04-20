@@ -58,11 +58,14 @@ export const CampusOne = () => {
             <div className="td_height_57 td_height_lg_0" />
             <div className="td_section_heading td_style_1">
               <h2 className="td_section_title td_fs_48 mb-0 td_white_color">
-               Our Campus
+              Student Life
               </h2>
               <p className="td_section_subtitle td_fs_18 mb-0 td_white_color td_opacity_7">
-                Your Campus is the place where learning meets inspiration. At Pakistan International School Jeddah English Section, our campus provides a vibrant, safe, and supportive environment designed to nurture academic growth, creativity, and personal development. Students experience a balanced lifestyle through engaging academics, co-curricular activities, and opportunities to build lifelong friendships.
-              </p>
+                Student life at Pakistan International School Jeddah (PISJ-ES) is designed to nurture well-rounded, confident, and engaged learners. Our dynamic environment blends academics with co-curricular activities, encouraging students to explore their interests, develop leadership skills, and build lasting friendships. From interactive classrooms to creative arts and sports programs, every experience contributes to holistic growth.
+<br />
+We offer a wide range of student activities, including clubs, competitions, community service, and leadership opportunities that promote teamwork, responsibility, and innovation. Our school fosters a safe, inclusive, and supportive atmosphere where every student feels valued and motivated to achieve their full potential.
+<br />
+At PISJ-ES, student life goes beyond the classroom—preparing learners with essential life skills, strong values, and global awareness to succeed in an ever-changing world.     </p>
             </div>
             {/* <div className="td_btn_box">
               <svg

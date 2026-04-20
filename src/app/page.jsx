@@ -54,9 +54,9 @@ export default function Home() {
       {/* video 
       <VideoOne />*/}
 
-      {/* Gallery Events*/}
+      {/* Gallery Events
       <EventOne />
-
+*/}
       {/* blog 
       <BlogOne />*/}
     </Layout>

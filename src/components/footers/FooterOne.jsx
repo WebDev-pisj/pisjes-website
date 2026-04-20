@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-const footerLogo = "/darklogo.png";
+const footerLogo = "/white-logo.png";
 
 export const FooterOne = () => {
   return (
@@ -13,9 +13,75 @@ export const FooterOne = () => {
               <div className="td_footer_text_widget td_fs_18">
                 <img src={footerLogo} alt="Logo" />
                 <p>
-                 Pakistan International School Jeddah – English Section
-                </p>
+                Pakistan International School Jeddah (PISJ-ES) is a leading institution serving the Pakistani community in Saudi Arabia. 
+ <br />  With a strong legacy and future-focused vision, PISJ-ES nurtures confident and globally aware learners.</p></div>
+              
+            </div>
+          </div>
+          <div className="td_footer_col">
+            <div className="td_footer_widget">
+              <h2 className="td_footer_widget_title td_fs_32 td_white_color td_medium td_mb_30">
+                Explore
+              </h2>
+              <ul className="td_footer_widget_menu">
+                <li>
+                  <Link href="/">Home</Link>
+                </li>
+                <li>
+                  <Link href="/mission-vision">Our Mission</Link>
+                </li>
+                <li>
+                  <Link href="/contact/contactDetails">Contact</Link>
+                </li>
+                <li>
+                  <Link href="/policies">PISJES Policies</Link>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="td_footer_col">
+            <div className="td_footer_widget">
+              <h2 className="td_footer_widget_title td_fs_32 td_white_color td_medium td_mb_30">
+                Other Links
+              </h2>
+              <ul className="td_footer_widget_menu">
+              <li>
+                  <Link href="/">Principal's Message</Link>
+                </li>
+                <li>
+                  <Link href="/">Professional Development</Link>
+                </li>
+                <li>
+                  <Link href="/">Student Leave Form</Link>
+                </li>
+                <li>
+                  <Link href="/">Our Campus</Link>
+                </li>
+                
+              </ul>
+               <div className="td_footer_social_btns td_fs_20">
+                <h2 className="td_footer_widget_title td_fs_32 td_white_color td_medium td_mb_30">
+              Social Media
+              </h2>
+                
+                 <a href="https://www.facebook.com/pisjesofficial1" className="td_center">
+                    <i className="fa-brands fa-facebook-f"></i>
+                  </a>
+                 <a href="https://instagram.com/pisjesofficial1" className="td_center">
+                    <i className="fa-brands fa-instagram"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/company/pakistan-international-school-jeddah-english-section/" className="td_center">
+                    <i className="fa-brands fa-linkedin"></i>
+                  </a>
               </div>
+            </div>
+          </div>
+          <div className="td_footer_col">
+            <div className="td_footer_widget">
+              <h2 className="td_footer_widget_title td_fs_32 td_white_color td_medium td_mb_30">
+               Get In Touch
+              </h2>
+              <div className="td_newsletter td_style_1">
               <ul className="td_footer_address_widget td_medium td_mp_0">
                 <li>
                   <i className="fa-solid fa-phone-volume"></i>
@@ -27,63 +93,8 @@ Secondary No. 7806, Al Rehab District<br />
                  Jeddah, Saudi Arabia <br />
                  Postal Code: 23344<br />
                 </li>
-              </ul>
-            </div>
-          </div>
-          <div className="td_footer_col">
-            <div className="td_footer_widget">
-              <h2 className="td_footer_widget_title td_fs_32 td_white_color td_medium td_mb_30">
-                Navigate
-              </h2>
-              <ul className="td_footer_widget_menu">
-                <li>
-                  <Link href="/">Home</Link>
-                </li>
-                <li>
-                  <Link href="/about">About</Link>
-                </li>
-                <li>
-                  <Link href="/contact">Contact</Link>
-                </li>
-                <li>
-                  <Link href="/privacy">Privacy Policy</Link>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className="td_footer_col">
-            <div className="td_footer_widget">
-              <h2 className="td_footer_widget_title td_fs_32 td_white_color td_medium td_mb_30">
-                Press Release
-              </h2>
-              <ul className="td_footer_widget_menu">
-                {/* <li>
-                  <Link href="/course-details">Business Coach</Link>
-                </li>
-                <li>
-                  <Link href="/course-details">Development Coach</Link>
-                </li>
-                <li>
-                  <Link href="/course-details">Testimonials</Link>
-                </li>
-                <li>
-                  <Link href="/course-details">Seo Optimization</Link>
-                </li>
-                <li>
-                  <Link href="/course-details">Web design</Link>
-                </li>
-                <li>
-                  <Link href="/course-details">Life Coach</Link>
-                </li> */}
-              </ul>
-            </div>
-          </div>
-          <div className="td_footer_col">
-            <div className="td_footer_widget">
-              <h2 className="td_footer_widget_title td_fs_32 td_white_color td_medium td_mb_30">
-                Subscribe Now
-              </h2>
-              <div className="td_newsletter td_style_1">
+              </ul></div>
+             {/*  <div className="td_newsletter td_style_1">
                 <p className="td_mb_20 td_opacity_7">
                   Subscribe for the latest news from PISJ-ES.
                 </p>
@@ -102,19 +113,8 @@ Secondary No. 7806, Al Rehab District<br />
                     </span>
                   </button>
                 </form>
-              </div>
-              <div className="td_footer_social_btns td_fs_20">
-                
-                 <a href="https://www.facebook.com/pisjesofficial1" className="td_center">
-                    <i className="fa-brands fa-facebook-f"></i>
-                  </a>
-                 <a href="https://instagram.com/pisjesofficial1" className="td_center">
-                    <i className="fa-brands fa-instagram"></i>
-                  </a>
-                  <a href="https://www.linkedin.com/company/pakistan-international-school-jeddah-english-section/" className="td_center">
-                    <i className="fa-brands fa-linkedin"></i>
-                  </a>
-              </div>
+              </div> */}
+             
             </div>
           </div>
         </div>

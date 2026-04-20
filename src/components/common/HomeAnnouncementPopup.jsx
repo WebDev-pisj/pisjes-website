@@ -8,26 +8,13 @@ export const HomeAnnouncementPopup = () => {
 
   const announcements = [
     {
-      badge: "Admissions",
-      title: "Admissions Are Open for 2026",
-      text: "Applications are now being accepted for all programs. Complete your registration before the deadline to secure your seat.",
-      ctaLabel: "Apply Now",
-      ctaLink: "/contact",
+      badge: "RFQ",
+      title: "Request for Quotation (RFQ)  – Pakistan International School Jeddah",
+      text: "PISJ-ES invites registered vendors to submit quotations for AMC, facility management, transportation, IT supplies, procurement, and asset disposal.Experienced companies meeting institutional standards are encouraged to apply.Details and submission guidelines are available at the link below.",
+      ctaLabel: "Click Here",
+      ctaLink: "https://portal.pisjes.edu.sa/procurement",
     },
-    {
-      badge: "Scholarship",
-      title: "Merit Scholarship Window Is Live",
-      text: "Eligible students can apply for up to 50% tuition support this semester. Submit your scholarship form before 30 June.",
-      ctaLabel: "View Eligibility",
-      ctaLink: "/about",
-    },
-    {
-      badge: "Event",
-      title: "Open Campus Day This Saturday",
-      text: "Meet faculty, explore labs, and attend career sessions. Reserve your slot now to receive the visitor schedule.",
-      ctaLabel: "Book Your Visit",
-      ctaLink: "/event",
-    },
+    
   ];
 
   const totalSlides = announcements.length;
