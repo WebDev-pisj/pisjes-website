@@ -211,7 +211,18 @@ export const ContactDirectoryTable = () => {
                 </tbody>
               </table>
             </div>
-            
+          </div>
+
+            <p className="td_fee_highlight_text">
+            After successfully passing the PISJES admission criteria :
+          </p>
+          <div className="td_fee_notice">
+            <p className="mb-0">
+              New Admissions Fee is applicable to all grade levels.
+              <br />
+              Admission Charges Payable at the time of Admission for session
+              2025-2026
+            </p>
           </div>
         </div>
       </div>
