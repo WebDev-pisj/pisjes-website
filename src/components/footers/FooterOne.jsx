@@ -59,18 +59,17 @@ export const FooterOne = () => {
                 </li>
                 
               </ul>
-               <div className="td_footer_social_btns td_fs_20">
-                <h2 className="td_footer_widget_title td_fs_32 td_white_color td_medium td_mb_30">
-              Social Media
+              <h2 className="td_footer_widget_title td_fs_32 td_white_color td_medium">
+                Social Media
               </h2>
-                
-                 <a href="https://www.facebook.com/pisjesofficial1" className="td_center">
+              <div className="td_footer_social_btns td_fs_20">
+                <a href="https://www.facebook.com/pisjesofficial1" className="td_center">
                     <i className="fa-brands fa-facebook-f"></i>
                   </a>
-                 <a href="https://instagram.com/pisjesofficial1" className="td_center">
+                <a href="https://instagram.com/pisjesofficial1" className="td_center">
                     <i className="fa-brands fa-instagram"></i>
                   </a>
-                  <a href="https://www.linkedin.com/company/pakistan-international-school-jeddah-english-section/" className="td_center">
+                <a href="https://www.linkedin.com/company/pakistan-international-school-jeddah-english-section/" className="td_center">
                     <i className="fa-brands fa-linkedin"></i>
                   </a>
               </div>
