@@ -50,7 +50,7 @@ Jeddah, Saudi Arabia<br />
             </li>
           </ul>
         </div>
-        <div className="td_side_header_box">
+        {/* <div className="td_side_header_box">
           <h3 className="td_side_header_title td_heading_color">Subscribe</h3>
           <div className="td_newsletter td_style_1">
             <form className="td_newsletter_form">
@@ -69,20 +69,18 @@ Jeddah, Saudi Arabia<br />
               </button>
             </form>
           </div>
-        </div>
+        </div> */}
         <div className="td_side_header_box">
           <h3 className="td_side_header_title td_heading_color">Follow Us</h3>
           <div className="td_social_btns td_style_1 td_heading_color">
-            <a href="#" className="td_center">
+            <a href="https://www.linkedin.com/company/pakistan-international-school-jeddah-english-section/" className="td_center">
               <i className="fa-brands fa-linkedin-in"></i>
             </a>
-            <a href="#" className="td_center">
-              <i className="fa-brands fa-twitter"></i>
+            
+            <a href="https://www.instagram.com/pisjesofficial1" className="td_center">
+              <i className="fa-brands fa-instagram"></i>
             </a>
-            <a href="#" className="td_center">
-              <i className="fa-brands fa-youtube"></i>
-            </a>
-            <a href="#" className="td_center">
+            <a href="https://www.facebook.com/pisjesofficial1" className="td_center">
               <i className="fa-brands fa-facebook-f"></i>
             </a>
           </div>
