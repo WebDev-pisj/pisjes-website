@@ -15,9 +15,12 @@ import { BrandTwo } from "@/components/brands/BrandTwo";
 import { HomeAnnouncementPopup } from "@/components/common/HomeAnnouncementPopup";
 
 export default function Home() {
+  const isAnnouncementPopupEnabled =
+    process.env.NEXT_PUBLIC_ENABLE_ANNOUNCEMENT_POPUP !== "false";
+
   return (
     <Layout header={1} footer={1}>
-      <HomeAnnouncementPopup />
+      {isAnnouncementPopupEnabled && <HomeAnnouncementPopup />}
       {/*MAin Banner*/}
       <HeroPISJES />
 
