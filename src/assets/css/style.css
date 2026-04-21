@@ -7660,6 +7660,19 @@ Announcement Popup
   font-weight: 600;
 }
 
+.td_popup_image_wrap {
+  margin-top: 8px;
+}
+
+.td_popup_image {
+  width: 100%;
+  max-height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+  border: 1px solid #d7dff8;
+}
+
 @media (max-width: 575px) {
   .td_announcement_popup_content {
     padding: 30px 20px 24px;

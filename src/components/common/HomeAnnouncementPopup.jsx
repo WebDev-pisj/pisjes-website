@@ -23,6 +23,14 @@ export const HomeAnnouncementPopup = () => {
       ctaLabel: "Click Here",
       ctaLink: "https://portal.pisjes.edu.sa/procurement",
     },
+    {
+      type: "image",
+      badge: "Spotlight",
+      title: "Campus Highlight",
+      text: "Sample announcement visual slide.",
+      imageSrc: "/home_1/campus_life_1.JPG",
+      imageAlt: "Campus highlight",
+    },
   ];
 
   const totalSlides = announcements.length;
@@ -193,6 +201,14 @@ export const HomeAnnouncementPopup = () => {
               </div>
             )}
           </>
+        ) : currentItem.type === "image" ? (
+          <div className="td_popup_image_wrap">
+            <img
+              src={currentItem.imageSrc}
+              alt={currentItem.imageAlt}
+              className="td_popup_image"
+            />
+          </div>
         ) : (
           <div className="td_announcement_popup_actions">
             <button
