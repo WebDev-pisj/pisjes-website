@@ -244,9 +244,9 @@ export const HeaderOne = () => {
                   <HeaderLanguage />
                 </div>
 
-                <div className="position-relative">
+                {/* <div className="position-relative">
                   <HeaderSearch />
-                </div>
+                </div> */}
 
                 <button className="td_hamburger_btn" onClick={toggleSidebar} />
               </div>

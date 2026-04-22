@@ -117,7 +117,7 @@ At PISJ-ES, student life goes beyond the classroom—preparing learners with ess
                   data-wow-delay="0.2s"
                 >
                   <Link
-                    href="/course-details"
+                    href="/student-clubs"
                     className="td_card_thumb d-block"
                   >
                     <img
@@ -128,9 +128,9 @@ At PISJ-ES, student life goes beyond the classroom—preparing learners with ess
                   </Link>
                   <div className="td_card_info">
                     <h2 className="td_card_title mb-0 td_fs_18 td_semibold td_white_color">
-                      <Link href="/course-details">Student Clubs</Link>
+                      <Link href="/student-clubs">Student Clubs</Link>
                     </h2>
-                    <Link href="/course-details" className="td_card_btn">
+                    <Link href="/student-clubs" className="td_card_btn">
                       <svg
                         width="23"
                         height="24"
@@ -185,7 +185,7 @@ At PISJ-ES, student life goes beyond the classroom—preparing learners with ess
                   data-wow-delay="0.3s"
                 >
                   <Link
-                    href="/course-details"
+                    href="/student-house-system"
                     className="td_card_thumb d-block"
                   >
                     <img
@@ -266,11 +266,11 @@ At PISJ-ES, student life goes beyond the classroom—preparing learners with ess
                   </Link>
                   <div className="td_card_info">
                     <h2 className="td_card_title mb-0 td_fs_18 td_semibold td_white_color">
-                      <Link href="/course-details">
+                      <Link href="/student-house-system">
                     Student House System
                       </Link>
                     </h2>
-                    <Link href="/course-details" className="td_card_btn">
+                    <Link href="/student-house-system" className="td_card_btn">
                       <svg
                         width="23"
                         height="24"
