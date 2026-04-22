@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 
 export const HomeAnnouncementPopup = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,37 +14,43 @@ export const HomeAnnouncementPopup = () => {
   const isResultSlideEnabled =
     process.env.NEXT_PUBLIC_ENABLE_RESULT_POPUP === "true";
 
-  const announcements = [
-    {
-      type: "announcement",
-      badge: "RFQ",
-      title: "Request for Quotation (RFQ)  – Pakistan International School Jeddah",
-      text: "PISJ-ES invites registered vendors to submit quotations for AMC, facility management, transportation, IT supplies, procurement, and asset disposal. Experienced companies meeting institutional standards are encouraged to apply. Details and submission guidelines are available at the link below.",
-      ctaLabel: "Click Here",
-      ctaLink: "https://portal.pisjes.edu.sa/procurement",
-    },
-    {
-      type: "image",
-      badge: "Spotlight",
-      title: "Campus Highlight",
-      text: "Sample announcement visual slide.",
-      imageSrc: "/home_1/campus_life_1.JPG",
-      imageAlt: "Campus highlight",
-    },
-  ];
+  const announcements = useMemo(
+    () => [
+      {
+        type: "announcement",
+        badge: "RFQ",
+        title: "Request for Quotation (RFQ)  – Pakistan International School Jeddah",
+        text: "PISJ-ES invites registered vendors to submit quotations for AMC, facility management, transportation, IT supplies, procurement, and asset disposal. Experienced companies meeting institutional standards are encouraged to apply. Details and submission guidelines are available at the link below.",
+        ctaLabel: "Click Here",
+        ctaLink: "https://portal.pisjes.edu.sa/procurement",
+      },
+      {
+        type: "image",
+        badge: "Spotlight",
+        title: "Campus Highlight",
+        text: "Sample announcement visual slide.",
+        imageSrc: "/home_1/campus_life_1.JPG",
+        imageAlt: "Campus highlight",
+      },
+    ],
+    []
+  );
 
-  const totalSlides = announcements.length;
-  const slides = isResultSlideEnabled
-    ? [
-        {
-          type: "result",
-          badge: "Result Day",
-          title: "Check Your Result",
-          text: "Enter your registration number to view result status and appointment details.",
-        },
-        ...announcements,
-      ]
-    : announcements;
+  const slides = useMemo(
+    () =>
+      isResultSlideEnabled
+        ? [
+            {
+              type: "result",
+              badge: "Result Day",
+              title: "Check Your Result",
+              text: "Enter your registration number to view result status and appointment details.",
+            },
+            ...announcements,
+          ]
+        : announcements,
+    [isResultSlideEnabled, announcements]
+  );
   const totalVisibleSlides = slides.length;
 
   useEffect(() => {
