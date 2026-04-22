@@ -77,15 +77,19 @@ export async function POST(request) {
     }
 
     const { student } = result;
+    const normalizedStatus = student.status.toLowerCase();
+    const isPassed = normalizedStatus === "passed";
     return NextResponse.json(
       {
         rollNumber: student.rollNumber,
         status: student.status,
-        message:
-          student.status === "passed"
-            ? "You are passed."
-            : "You are not passed. Please contact the school office for support.",
-        ptmDetails: student.status === "passed" ? student.ptmDetails : "",
+        message: isPassed
+          ? "You are passed."
+          : `Your status is ${student.status}.`,
+        iqamaExpired: student.iqamaExpired,
+        appointmentDate: student.appointmentDate,
+        appointmentTime: student.appointmentTime,
+        isPaid: student.isPaid,
       },
       { headers: noStoreHeaders }
     );

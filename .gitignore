@@ -13,3 +13,4 @@ node_modules
 *.log
 package-lock.js
 secure-data/*.xlsx
+secure-data/results.ods

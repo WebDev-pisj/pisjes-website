@@ -40,7 +40,7 @@ export const HomeAnnouncementPopup = () => {
           type: "result",
           badge: "Result Day",
           title: "Check Your Result",
-          text: "Enter your roll number to view pass/fail status and PTM details.",
+          text: "Enter your registration number to view result status and appointment details.",
         },
         ...announcements,
       ]
@@ -154,7 +154,7 @@ export const HomeAnnouncementPopup = () => {
               <input
                 type="text"
                 className="td_result_input"
-                placeholder="Roll Number"
+                placeholder="Registration Number"
                 value={rollNumber}
                 onChange={(event) => setRollNumber(event.target.value.toUpperCase())}
                 maxLength={20}
@@ -180,7 +180,7 @@ export const HomeAnnouncementPopup = () => {
             {result && (
               <div
                 className={`td_result_feedback ${
-                  result.status === "passed"
+                  String(result.status || "").trim().toLowerCase() === "passed"
                     ? "td_result_feedback_success"
                     : "td_result_feedback_error"
                 }`}
@@ -190,12 +190,17 @@ export const HomeAnnouncementPopup = () => {
                 </p>
                 <p className="mb-1">
                   <strong>Status:</strong>{" "}
-                  {result.status === "passed" ? "Passed" : "Not Passed"}
+                  {result.status}
                 </p>
                 <p className="mb-1">{result.message}</p>
-                {result.status === "passed" && result.ptmDetails && (
+                {result.appointmentDate && (
                   <p className="mb-0">
-                    <strong>Parent Teacher Meeting:</strong> {result.ptmDetails}
+                    <strong>Appointment Date:</strong> {result.appointmentDate}
+                  </p>
+                )}
+                {result.appointmentTime && (
+                  <p className="mb-0">
+                    <strong>Appointment Time:</strong> {result.appointmentTime}
                   </p>
                 )}
               </div>
