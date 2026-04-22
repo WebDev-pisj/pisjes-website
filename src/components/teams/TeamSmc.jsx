@@ -90,7 +90,7 @@ Through its dedicated oversight and commitment, the School Management Council he
             <div className="td_team td_style_1 text-center position-relative">
               <img
                 src={bilal}
-               
+                alt="Mr. Bilal Saeed Ahmed"
                 className="w-100 td_radius_10"
               />
               <div className="td_team_info td_white_bg">
@@ -111,7 +111,7 @@ Through its dedicated oversight and commitment, the School Management Council he
             <div className="td_team td_style_1 text-center position-relative">
               <img
                 src={waqar}
-                
+                alt="Mr. Agha Aamir Raza"
                 className="w-100 td_radius_10"
               />
               <div className="td_team_info td_white_bg">
@@ -132,7 +132,7 @@ Through its dedicated oversight and commitment, the School Management Council he
             <div className="td_team td_style_1 text-center position-relative">
               <img
                 src={waqar}
-            
+                alt="Dr. Waqar Ahmed"
                 className="w-100 td_radius_10"
               />
               <div className="td_team_info td_white_bg">
@@ -153,7 +153,7 @@ Through its dedicated oversight and commitment, the School Management Council he
             <div className="td_team td_style_1 text-center position-relative">
               <img
                 src={waqar}
-            
+                alt="Mr. Rizwan Ahmed"
                 className="w-100 td_radius_10"
               />
               <div className="td_team_info td_white_bg">
@@ -174,7 +174,7 @@ Through its dedicated oversight and commitment, the School Management Council he
             <div className="td_team td_style_1 text-center position-relative">
               <img
                 src={waqar}
-            
+                alt="Mr. Sajjadullah Khan"
                 className="w-100 td_radius_10"
               />
               <div className="td_team_info td_white_bg">
@@ -195,7 +195,7 @@ Through its dedicated oversight and commitment, the School Management Council he
             <div className="td_team td_style_1 text-center position-relative">
               <img
                 src={waqar}
-            
+                alt="Mr. Babur Ali"
                 className="w-100 td_radius_10"
               />
               <div className="td_team_info td_white_bg">
