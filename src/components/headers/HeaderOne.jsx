@@ -71,7 +71,7 @@ export const HeaderOne = () => {
                               <Link href="/our-campus">Our Campus</Link>
                             </li>
                             <li>
-                              <Link href="/">Pisjes Policies</Link>
+                              <Link href="/school-policies">Pisjes Policies</Link>
                             </li>
                            
                           </ul>
@@ -81,7 +81,7 @@ export const HeaderOne = () => {
                           <Link href="/">Academics</Link>
                           <ul>
                             <li>
-                              <Link href="/">School Timings</Link>
+                              <Link href="school-timings">School Timings</Link>
                             </li>
                             <li>
                               <Link href="/calendar">Academic Calendar</Link>
@@ -164,12 +164,12 @@ export const HeaderOne = () => {
                               <h4>Fee Structure</h4>
                               <ul>
                                 <li>
-                                  <Link href="/students-registrations">
+                                  <Link href="/fee-structure">
                                     Fee Payment System
                                   </Link>
                                 </li>
                                 <li>
-                                  <Link href="/instructor-registrations">
+                                  <Link href="/fee-structure">
                                     Fee Structure
                                   </Link>
                                 </li>
@@ -185,7 +185,7 @@ export const HeaderOne = () => {
                               <h4>Others</h4>
                               <ul>
                                 <li>
-                                  <Link href="/faqs">School Leaving Certificate</Link>
+                                  <Link href="/slc">School Leaving Certificate</Link>
                                 </li>
                                
                               

@@ -34,7 +34,7 @@ export const FooterOne = () => {
                   <Link href="/contact/contactDetails">Contact</Link>
                 </li>
                 <li>
-                  <Link href="/policies">PISJES Policies</Link>
+                  <Link href="/school-policies">PISJES Policies</Link>
                 </li>
               </ul>
             </div>
@@ -52,7 +52,7 @@ export const FooterOne = () => {
                   <Link href="/">Professional Development</Link>
                 </li>
                 <li>
-                  <Link href="/">Student Leave Form</Link>
+                  <Link href="/home_1/leave-form.pdf">Student Leave Form</Link>
                 </li>
                 <li>
                   <Link href="/">Our Campus</Link>
