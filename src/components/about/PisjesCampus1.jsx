@@ -352,7 +352,7 @@ Nutritious and healthy food helps developing smart minds and strong bodies. Our 
                  Clinic
                 </h2>
                 <p className="td_section_subtitle td_fs_18 mb-0 td_heading_color td_opacity_8">
-                 A full-time Doctor is available in the school’s clinic to attend to the health needs of children as and when required. Our clinic is well equipped with the medical apparatus and other facilities. First aid is immediately administered to a student if he/she sustains an injury or illness during school hours. In Junior School, once in two months, a complete health check is provided for the children. This includes a dental and eye check, along with the child's hygiene. Information with regard to any concern is sent home to parents.</p>           </div>
+                 A full-time Doctor is available in the school&apos;s clinic to attend to the health needs of children as and when required. Our clinic is well equipped with the medical apparatus and other facilities. First aid is immediately administered to a student if he/she sustains an injury or illness during school hours. In Junior School, once in two months, a complete health check is provided for the children. This includes a dental and eye check, along with the child&apos;s hygiene. Information with regard to any concern is sent home to parents.</p>           </div>
             
             </div>
           </div>

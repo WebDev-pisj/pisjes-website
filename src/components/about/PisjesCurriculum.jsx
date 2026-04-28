@@ -237,7 +237,7 @@ An integral part of the PISJ-ES experience is the emphasis on holistic personali
                 Senior School (Y9 to Y12)
                 </h2>
                 <p className="td_section_subtitle td_fs_18 mb-0 td_heading_color td_opacity_8">
-                The Senior School curriculum covers a broad spectrum of subjects in Commerce and Science streams with a compulsory subject of Computer Science & Information Technology. The variety and combination of subjects is tailored to meet the international and local requirements and develop students' self-confidence while equipping them with an essential aptitude for lifelong learning. <br/>
+                The Senior School curriculum covers a broad spectrum of subjects in Commerce and Science streams with a compulsory subject of Computer Science & Information Technology. The variety and combination of subjects is tailored to meet the international and local requirements and develop students&apos; self-confidence while equipping them with an essential aptitude for lifelong learning. <br/>
 The academic environment on campus is purposeful, stimulating and challenging in a fully equipped classrooms and labs with multimedia projectors. Subject specialists are recruited and trained to deliver not only the academic content but help students grow as conscientious individuals through variety of co-curricular and extra-curricular activities.  </p>       </div>
             
             </div>

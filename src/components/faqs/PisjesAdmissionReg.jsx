@@ -216,7 +216,7 @@ Please transfer to:<br/>
 -Bank Al Jazira: Pakistan International School ES,AC# 0021-245219-001 OR IBAN: SA62 6000 0000 0212 4521 9001 (Pakistan Intl School Jeddah ES)
 Share the bank advice slip with the Accounts department through email at fee@pisjes.edu.sa.<br/>
 A receipt will be shared in due course of time to acknowledge your payment.<br/>
-Note: Please have statement of entry stamped by the "Accounts office" at least one day before the exam and bring it with you on exam day.<br/>
+Note: Please have statement of entry stamped by the &quot;Accounts office&quot; at least one day before the exam and bring it with you on exam day.<br/>
                   </p>
                 </div>
               </div>

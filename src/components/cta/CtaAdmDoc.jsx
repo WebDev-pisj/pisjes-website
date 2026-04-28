@@ -44,7 +44,7 @@ e. Student’s birth certificate
 <br/>
 f. Student’s vaccination/immunization certificate
 <br/>
-g. Parent's visa page (if Iqama under process)
+g. Parent&apos;s visa page (if Iqama under process)
 <br/>
 h. Student’s report cards for all academic years (Not Applicable for Kindergarten).
 <br/>
@@ -59,7 +59,7 @@ l. Fee Clearance certificate from pervious school (if previous school is within 
 Note:<br/>
 1.Classes will only be allocated on submission of all above mentioned documents.
 <br/>
-2.Kindly make sure that your ward’s Noor System file is archived or transferred to "Pakistan International School Jeddah English Section" by 24th August, 2026.The student cannot attend the class without transfer in Noor System as per the M.O.E instructions.
+2.Kindly make sure that your ward&apos;s Noor System file is archived or transferred to &quot;Pakistan International School Jeddah English Section&quot; by 24th August, 2026.The student cannot attend the class without transfer in Noor System as per the M.O.E instructions.
 <br/>
 3.Acceptance letter can be provided on demand. Application form is available on school reception, filled application form can be submitted via email on (admissions@pisjes.edu.sa) or in office.           </p>
              

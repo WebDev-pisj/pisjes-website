@@ -321,7 +321,7 @@ export const ContactDirectoryTable = () => {
 
           <div className="td_fee_block">
             <h3 className="td_fee_block_title">Discount Policy:</h3>
-            <p>Discount for Siblings (Not applicable to A' Level Students)</p>
+            <p>Discount for Siblings (Not applicable to A&apos; Level Students)</p>
             <div className="td_table_1 td_fee_table">
               <table>
                 <thead>
