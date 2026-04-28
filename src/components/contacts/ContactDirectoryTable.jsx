@@ -84,6 +84,112 @@ const tuitionFeeOtherNationals = [
   },
 ];
 
+const discountPolicy = [
+  {
+    child: "First Child",
+    discount: "Nil",
+  },
+  {
+    child: "Second Child",
+    discount: "20 %",
+  },
+  {
+    child: "Third Child",
+    discount: "30 %",
+  },
+  {
+    child: "Fourth Child Onwards",
+    discount: "40 %",
+  },
+];
+
+const busFee = [
+  {
+    route: "Jeddah Route",
+    fee: "SR 3,500",
+    vat: "SR 525",
+    total: "SR 4,025",
+  },
+  {
+    route: "Makkah Route",
+    fee: "SR 4,500",
+    vat: "SR 675",
+    total: "SR 5,175",
+  },
+];
+
+const sportsAndWelfareFee = [
+  {
+    level: "All grade levels",
+    fee: "SR 350",
+    vat: "SR 52.50",
+    total: "SR 402.5",
+  },
+];
+
+const sportsAndWelfareFeeOtherNationals = [
+  {
+    level: "All grade levels",
+    fee: "SR 500",
+    vat: "SR 75",
+    total: "SR 575",
+  },
+];
+
+const itAndScienceLabFee = [
+  {
+    level: "Y1 to Y8",
+    fee: "SR 400",
+    vat: "SR 60",
+    total: "SR 460",
+  },
+  {
+    level: "Y9 & Y10 (Pure Commerce)",
+    fee: "SR 400",
+    vat: "SR 60",
+    total: "SR 460",
+  },
+  {
+    level: "Y9 & Y10 (Pure Science & Combination)",
+    fee: "SR 800",
+    vat: "SR 120",
+    total: "SR 920",
+  },
+  {
+    level: "AS & A2 (Per lab subject)",
+    fee: "SR 400",
+    vat: "SR 60",
+    total: "SR 460",
+  },
+];
+
+const itAndScienceLabFeeOtherNationals = [
+  {
+    level: "Y1 to Y8",
+    fee: "SR 500",
+    vat: "SR 75",
+    total: "SR 575",
+  },
+  {
+    level: "Y9 & Y10 (Pure Commerce)",
+    fee: "SR 500",
+    vat: "SR 75",
+    total: "SR 575",
+  },
+  {
+    level: "Y9 & Y10 (Pure Science & Combination)",
+    fee: "SR 1,000",
+    vat: "SR 150",
+    total: "SR 1,150",
+  },
+  {
+    level: "AS & A2 (Per lab subject)",
+    fee: "SR 500",
+    vat: "SR 75",
+    total: "SR 575",
+  },
+];
+
 export const ContactDirectoryTable = () => {
   return (
     <section className="td_fee_structure_wrap">
@@ -211,7 +317,196 @@ export const ContactDirectoryTable = () => {
                 </tbody>
               </table>
             </div>
-            
+          </div>
+
+          <div className="td_fee_block">
+            <h3 className="td_fee_block_title">Discount Policy:</h3>
+            <p>Discount for Siblings (Not applicable to A' Level Students)</p>
+            <div className="td_table_1 td_fee_table">
+              <table>
+                <thead>
+                  <tr>
+                    {discountPolicy.map((item) => (
+                      <th key={item.child}>{item.child}</th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    {discountPolicy.map((item) => (
+                      <td key={item.child}>{item.discount}</td>
+                    ))}
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div className="td_fee_notice td_type_2">
+            <p className="mb-0">Discount applies only to the tuition fee.</p>
+          </div>
+
+          <div className="td_fee_block">
+            <h3 className="td_fee_block_title">Bus Fee:</h3>
+            <div className="td_table_1 td_fee_table">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Route</th>
+                    <th>Fee (per annum)</th>
+                    <th>VAT (per annum)</th>
+                    <th>Fee Including VAT</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {busFee.map((item) => (
+                    <tr key={item.route}>
+                      <td>{item.route}</td>
+                      <td>{item.fee}</td>
+                      <td>{item.vat}</td>
+                      <td>{item.total}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div className="td_fee_block">
+            <h3 className="td_fee_block_title">Sports & Welfare Fee:</h3>
+            <div className="td_table_1 td_fee_table">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Grade Levels</th>
+                    <th>Fee (per annum)</th>
+                    <th>VAT (per annum)</th>
+                    <th>Fee Including VAT</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {sportsAndWelfareFee.map((item) => (
+                    <tr key={item.level}>
+                      <td>{item.level}</td>
+                      <td>{item.fee}</td>
+                      <td>{item.vat}</td>
+                      <td>{item.total}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div className="td_fee_block">
+            <h3 className="td_fee_block_title">
+              Sports & Welfare Fee: (Other Nationals)
+            </h3>
+            <div className="td_table_1 td_fee_table">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Grade Levels</th>
+                    <th>Fee (per annum)</th>
+                    <th>VAT (per annum)</th>
+                    <th>Fee Including VAT</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {sportsAndWelfareFeeOtherNationals.map((item) => (
+                    <tr key={item.level}>
+                      <td>{item.level}</td>
+                      <td>{item.fee}</td>
+                      <td>{item.vat}</td>
+                      <td>{item.total}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div className="td_fee_block">
+            <h3 className="td_fee_block_title">IT & Science Lab Fee:</h3>
+            <div className="td_table_1 td_fee_table">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Grade Levels</th>
+                    <th>Fee (per annum)</th>
+                    <th>VAT (per annum)</th>
+                    <th>Fee Including VAT</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {itAndScienceLabFee.map((item) => (
+                    <tr key={item.level}>
+                      <td>{item.level}</td>
+                      <td>{item.fee}</td>
+                      <td>{item.vat}</td>
+                      <td>{item.total}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div className="td_fee_block">
+            <h3 className="td_fee_block_title">
+              IT & Science Lab Fee:(Other Nationals)
+            </h3>
+            <div className="td_table_1 td_fee_table">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Grade Levels</th>
+                    <th>Fee (per annum)</th>
+                    <th>VAT (per annum)</th>
+                    <th>Fee Including VAT</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {itAndScienceLabFeeOtherNationals.map((item) => (
+                    <tr key={item.level}>
+                      <td>{item.level}</td>
+                      <td>{item.fee}</td>
+                      <td>{item.vat}</td>
+                      <td>{item.total}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div className="td_fee_block">
+            <h3 className="td_fee_block_title">Fee Payment:</h3>
+            <p>
+              The aforementioned fee is for a complete academic year or part of
+              it. Fee must be paid in full either at the start of the academic
+              year or in two installments (September & February).
+              <br />
+              A Monthly installment option is offered to salaried parents for
+              their convenience. The yearly tuition fee must be paid in 10
+              monthly installments due at the start of each month (September to
+              June).Monthly fee including VAT MUST be paid by the 15th of each
+              month without exception.
+              <br />
+              <br />
+              15% VAT is effective from July 1, 2020.
+            </p>
+          </div>
+
+          <div className="td_fee_notice td_type_2 td_mb_0">
+            <p className="mb-0">
+              Note: The IGCSE/A Level CAIE /Board Examination registration fee
+              is due in January of each calendar year. The school fee must also
+              be paid in full for the academic year before the statement of
+              entry is issued (in March) for all students appearing in IGCSE &
+              A Level CAIE Examinations in May/June. Parents are advised to
+              plan their payments accordingly.
+            </p>
           </div>
         </div>
       </div>

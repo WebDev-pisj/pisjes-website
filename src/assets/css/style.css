@@ -15254,6 +15254,9 @@ button.td_icon_btn:hover {
 .td_fee_structure_wrap {
   position: relative;
 }
+.td_fee_structure_wrap .container {
+  max-width: 1140px;
+}
 .td_fee_structure_card {
   border: 1px solid var(--border-color);
   border-radius: 14px;
@@ -15301,17 +15304,37 @@ button.td_icon_btn:hover {
 .td_fee_notice.td_type_2 {
   margin-top: 14px;
 }
+.td_exam_schedule_head {
+  border: 1px solid var(--border-color);
+  border-radius: 8px 8px 0 0;
+  background: #f7f7f7;
+  margin-bottom: 14px;
+}
+.td_exam_schedule_head p {
+  margin: 0;
+  padding: 14px 18px;
+  color: var(--accent-color);
+  font-weight: 700;
+}
+.td_exam_schedule_head_icon {
+  display: inline-block;
+  margin-right: 12px;
+}
 .td_fee_table {
   border-color: var(--border-color);
   border-radius: 10px;
+  width: 100%;
   overflow-x: auto;
+  overflow-y: hidden;
   -webkit-overflow-scrolling: touch;
+  overscroll-behavior-x: contain;
   scrollbar-width: thin;
   -webkit-animation: tdFeeWindowOpen 0.45s ease-out;
           animation: tdFeeWindowOpen 0.45s ease-out;
 }
 .td_fee_table table {
   margin: 0;
+  width: 100%;
   min-width: 760px;
 }
 .td_fee_table th {
@@ -15346,6 +15369,11 @@ button.td_icon_btn:hover {
   }
 }
 @media (max-width: 767px) {
+  .td_fee_structure_wrap .container {
+    max-width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
   .td_fee_structure_card {
     padding: 24px 14px;
   }
@@ -15369,7 +15397,7 @@ button.td_icon_btn:hover {
     overflow-y: hidden;
   }
   .td_fee_table table {
-    min-width: 640px;
+    min-width: 620px;
   }
   .td_fee_table th,
   .td_fee_table td {

@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import nodemailer from "nodemailer";
 
-const CONTACT_RECEIVER_EMAIL = "it.coordinator@pisjes.edu.sa";
+const CONTACT_RECEIVER_EMAIL = "web.developer@pisjes.edu.sa";
 const CONTACT_RECEIVER_LABEL = "IT Coordinator";
 
 const getTransporter = () => {
