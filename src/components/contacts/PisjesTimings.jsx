@@ -84,7 +84,7 @@ const tuitionFeeOtherNationals = [
   },
 ];
 
-export const SchoolTimingsContent = () => {
+export const PisjesTimings= () => {
   return (
     <section className="td_fee_structure_wrap">
       <div className="container">

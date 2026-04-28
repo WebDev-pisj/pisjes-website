@@ -64,14 +64,17 @@ export const HeaderOne = () => {
                               <Link href="/mission-vision">Vision &  Mission</Link>
                             </li>
                             <li>
-                              <Link href="/our-team">Our Team</Link>
+                              <Link href="/our-team">Team</Link>
                             </li>
                           
                             <li>
-                              <Link href="/our-campus">Our Campus</Link>
+                              <Link href="/our-campus">Campus</Link>
+                            </li>
+                              <li>
+                              <Link href="/curriculum">Curriculum</Link>
                             </li>
                             <li>
-                              <Link href="/school-policies">Pisjes Policies</Link>
+                              <Link href="/school-policies">Policies</Link>
                             </li>
                            
                           </ul>
@@ -86,7 +89,7 @@ export const HeaderOne = () => {
                             <li>
                               <Link href="/calendar">Academic Calendar</Link>
                             </li>
-                          
+                         
                             <li>
                               <Link href="/">Document Requests ( IGCSE & A Levels)</Link>
                             </li>
@@ -133,28 +136,28 @@ export const HeaderOne = () => {
                               <h4>Session 2026-27</h4>
                               <ul>
                                 <li>
-                                  <Link href="/event">Entrance Exam Registration</Link>
+                                  <Link href="/admission-registration">Entrance Exam Registration</Link>
                                 </li>
                                 <li>
-                                  <Link href="/event/ev-123">
+                                  <Link href="/admission-schedule">
                                     Entrance Exam Schedule
                                   </Link>
                                 </li>
                                 <li>
-                                  <Link href="/event/ev-123">
+                                  <Link href="/age-criteria">
                                     Age Criteria
                                   </Link>
                                 </li>
                                  <li>
-                                  <Link href="/event/ev-123">
+                                  <Link href="/admission-documents">
                                     Documents Required
                                   </Link>
                                 </li>
                                 <li>
-                                  <Link href="/team-members">Admissions Process Guideline</Link>
+                                  <Link href="/admission-guideline">Admissions Process Guideline</Link>
                                 </li>
                                 <li>
-                                  <Link href="/team-members/t-123">
+                                  <Link href="/admission-syllabus">
                                     Entrance Exam Syllabus Outline
                                   </Link>
                                 </li>
@@ -164,7 +167,7 @@ export const HeaderOne = () => {
                               <h4>Fee Structure</h4>
                               <ul>
                                 <li>
-                                  <Link href="/fee-structure">
+                                  <Link href="/fee-payment-system">
                                     Fee Payment System
                                   </Link>
                                 </li>
@@ -174,10 +177,10 @@ export const HeaderOne = () => {
                                   </Link>
                                 </li>
                                 <li>
-                                  <Link href="/signup">Clearance Of School Dues</Link>
+                                  <Link href="/Clearance">Clearance Of School Dues</Link>
                                 </li>
                                 <li>
-                                  <Link href="/signin">Terms & Conditions</Link>
+                                  <Link href="/Terms">Terms & Conditions</Link>
                                 </li>
                               </ul>
                             </li>

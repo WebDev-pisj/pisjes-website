@@ -1,23 +1,18 @@
-import { PisjesMissionVision } from "@/components/about/PisjesMissionVision";
-
-import { CtaPisj } from "@/components/cta/CtaPisj";
+import { PisjesCurriculum } from "@/components/about/PisjesCurriculum";
 
 
-
-import { VideoTwo } from "@/components/videos/VideoTwo";
 import { Layout } from "@/layouts/Layout";
 
-export default function MissionVision() {
+export default function Curriculum() {
   return (
-    <Layout header={1} footer={1} bodyClass="td_theme_1" breadcrumbTitle={"About"} breadcrumbSubtitle={"PISJ-ES Vision, Mission, Values & Goals"}>
+   <Layout header={1} footer={1} bodyClass="td_theme_1" breadcrumbTitle={"About"} breadcrumbSubtitle={"Curriculum"}>
      
+    {/* hero 
+      <PisjesCampus2 />  */}
 
       {/* about */}
-      <PisjesMissionVision />
+      <PisjesCurriculum />
 
-    
-      {/* cta */}
-      <CtaPisj />
 
     </Layout>
   );

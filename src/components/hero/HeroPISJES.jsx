@@ -27,7 +27,7 @@ export const HeroPISJES = () => {
               From early years to graduation, we provide a world-class education that inspires curiosity, creativity, and academic success.
             </p>
             <Link
-              href="/courses-grid-view"
+              href="/curriculum"
               className="td_btn td_style_1 td_radius_10 td_medium"
             >
               <span className="td_btn_in td_white_color td_accent_bg">

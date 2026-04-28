@@ -46,7 +46,7 @@ export const FooterOne = () => {
               </h2>
               <ul className="td_footer_widget_menu">
               <li>
-                  <Link href="/">Principal&apos;s Message</Link>
+                  <Link href="/principal-message">Principal&apos;s Message</Link>
                 </li>
                 <li>
                   <Link href="/">Professional Development</Link>
@@ -55,7 +55,7 @@ export const FooterOne = () => {
                   <Link href="/home_1/leave-form.pdf">Student Leave Form</Link>
                 </li>
                 <li>
-                  <Link href="/">Our Campus</Link>
+                  <Link href="/our-campus">Our Campus</Link>
                 </li>
                 
               </ul>

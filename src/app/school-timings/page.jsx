@@ -1,7 +1,7 @@
-import { SchoolTimings } from "@/components/contacts/SchoolTimings";
+import { PisjesTimings } from "@/components/contacts/PisjesTimings";
 import { Layout } from "@/layouts/Layout";
 
-export default function SchoolTimingsContent() {
+export default function SchoolTimings() {
   return (
     <Layout
       header={1}
@@ -11,7 +11,7 @@ export default function SchoolTimingsContent() {
       breadcrumbSubtitle={"School Timings"}
     >
       <div className="td_height_120 td_height_lg_80" />
-      <SchoolTimings />
+      <PisjesTimings />
       <div className="td_height_120 td_height_lg_80" />
     </Layout>
   );
