@@ -5,7 +5,7 @@ const errorImg = "/others/error.svg";
 
 export default function NotFoundPage() {
   return (
-    <Layout breadcrumbTitle={"Error 404"} breadcrumbSubtitle={"Error 404"}>
+    <Layout header={1} footer={1} bodyClass="td_theme_1" breadcrumbTitle={"Error 404"} breadcrumbSubtitle={"Error 404"}>
       <section>
         <div className="td_height_120 td_height_lg_80" />
         <div className="container">

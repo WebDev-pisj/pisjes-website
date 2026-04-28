@@ -84,12 +84,12 @@ const tuitionFeeOtherNationals = [
   },
 ];
 
-export const ContactDirectoryTable = () => {
+export const PisjesTimings= () => {
   return (
     <section className="td_fee_structure_wrap">
       <div className="container">
         <div className="td_fee_structure_card">
-          <h2 className="td_fee_structure_title">Fee Structure</h2>
+          <h2 className="td_fee_structure_title">School Timings</h2>
 
           <div className="td_fee_block">
             <h3 className="td_fee_block_title">
