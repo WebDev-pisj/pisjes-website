@@ -5,7 +5,7 @@ import Link from "next/link";
 import Countdown from "react-countdown";
 
 const eventThumb1 = "/home_1/event_thumb_1.jpg";
-const eventThumb5 = "/home_1/event_thumb_5.jpg";
+const eventThumb5 = "/home_1/amoe.jpg";
 
 export const ContentDocReq = () => {
   return (
@@ -280,6 +280,12 @@ Copies of: (Each Copy on Separate Page) <br/> </p>
                       </li>
                     </ul>
                   </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-4">
                   <h3 className="td_fs_32 td_mb_20">Authentication of Records as Required by the Saudi Ministry of Education:</h3>
                  
                   <div className="td_map">
@@ -289,9 +295,7 @@ Copies of: (Each Copy on Separate Page) <br/> </p>
                 className="td_radius_10 td_mb_20 w-100"
               />
                   </div>
-                </div>
-              </div>
-            </div>
+
           </div>
           {/* <div className="col-lg-4">
             <div className="td_card td_style_6 td_white_bg td_radius_10">
