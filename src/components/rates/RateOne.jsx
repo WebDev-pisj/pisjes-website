@@ -4,6 +4,8 @@ const rateIcon1 = "/home_2/acc-1.png";
 const rateIcon2 = "/home_2/acc-2.png";
 const rateIcon3 = "/home_2/acc-3.png";
 const rateIcon4 = "/home_2/acc-4.png";
+const rateIcon5 = "/home_2/acc-5.png";
+const rateIcon6 = "/home_2/acc-6.png";
 
 export const RateOne = () => {
   return (
@@ -51,17 +53,6 @@ export const RateOne = () => {
                   </div>
                 </li>
 
-                <li>
-                  <div className="td_rate_feature_icon td_center ">
-                    <img src={rateIcon2} alt="Expert Instructor Icon" />
-                  </div>
-                  <div className="td_rate_feature_right">
-                    <h3 className="td_fs_24 td_semibold td_white_color td_mb_4">
-                    Cambridge International Education
-                    </h3>
-                    
-                  </div>
-                </li>
 
                 <li>
                   <div className="td_rate_feature_icon td_center ">
@@ -89,7 +80,7 @@ export const RateOne = () => {
 
                  <li>
                   <div className="td_rate_feature_icon td_center ">
-                    <img src={rateIcon4} alt="Certificate Icon" />
+                    <img src={rateIcon6} alt="Certificate Icon" />
                   </div>
                   <div className="td_rate_feature_right">
                     <h3 className="td_fs_24 td_semibold td_white_color td_mb_4">
@@ -98,13 +89,25 @@ export const RateOne = () => {
                     
                   </div>
                 </li>
+                
                 <li>
                   <div className="td_rate_feature_icon td_center ">
-                    <img src={rateIcon4} alt="Certificate Icon" />
+                    <img src={rateIcon2} alt="Expert Instructor Icon" />
                   </div>
                   <div className="td_rate_feature_right">
                     <h3 className="td_fs_24 td_semibold td_white_color td_mb_4">
-                       Authorised Open Centre for Oxford Admission Tests
+                    Cambridge International Education
+                    </h3>
+                    
+                  </div>
+                </li>
+                <li>
+                  <div className="td_rate_feature_icon td_center ">
+                    <img src={rateIcon5} alt="Certificate Icon" />
+                  </div>
+                  <div className="td_rate_feature_right">
+                    <h3 className="td_fs_24 td_semibold td_white_color td_mb_4">
+                     Oxford Admission Test Centre
                     </h3>
                     
                   </div>
@@ -112,7 +115,7 @@ export const RateOne = () => {
               </ul>
             </div>
 
-            <div className="td_moving_box">
+         {/*    <div className="td_moving_box">
               <ul className="td_rate_feature_list td_mp_0">
                 
                 <li>
@@ -175,7 +178,7 @@ export const RateOne = () => {
                 
                 
               </ul>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
