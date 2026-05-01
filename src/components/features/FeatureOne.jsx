@@ -4,7 +4,7 @@ import React from "react";
 import { useHobble } from "../../lib/hooks/useHobble";
 import Link from "next/link";
 
-const featureImg = "home_1/admsn.jpg";
+const featureImg = "home_1/cta.jpg";
 
 export const FeatureOne = () => {
   useHobble();
@@ -40,13 +40,13 @@ export const FeatureOne = () => {
             <div className="td_height_50 td_height_lg_50" />
             <div className="td_feature_info">
                   
-                  <p className="td_white_color td_fs_14  td_opacity_7 mb-0">
+                  <p className="td_white_color td_opacity_7 td_section_subtitle td_fs_18 mb-0">
                    Give your child the opportunity to grow, learn, and succeed at one of the leading international schools in Jeddah. For application details, admission requirements, and enrollment guidance, our team is ready to assist you. Contact us today and take the first step toward a bright academic future. </p>
                 </div>
  <div className="td_btn_box">
               <svg
-                width="299"
-                height="315"
+                width="199"
+                height="215"
                 viewBox="0 0 299 315"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -74,7 +74,7 @@ export const FeatureOne = () => {
               </svg>
               <div className="td_btn_box_in">
                 <Link
-                  href="/courses-grid-view"
+                  href="/admission-registration"
                   className="td_btn td_style_1 td_radius_10 td_medium td_fs_14"
                 >
                   <span className="td_btn_in td_heading_color td_white_bg">

@@ -56,6 +56,8 @@ export const TeamSMC = () => {
 
 
         {/* //////////////// smc //////////  */}
+
+        
         <div
           className="td_section_heading td_style_1 text-center wow fadeInUp"
           data-wow-duration="1s"
@@ -77,7 +79,7 @@ Through its dedicated oversight and commitment, the School Management Council he
 </p>   </div>
     <br />  
     
-    
+    <div className="td_height_60 td_height_lg_40" />
     
       <div className="td_height_50 td_height_lg_50" />
 
@@ -88,11 +90,11 @@ Through its dedicated oversight and commitment, the School Management Council he
             data-wow-delay="0.25s"
           >
             <div className="td_team td_style_1 text-center position-relative">
-              <img
+              {/* <img
                 src={bilal}
                 alt="Mr. Bilal Saeed Ahmed"
                 className="w-100 td_radius_10"
-              />
+              /> */}
               <div className="td_team_info td_white_bg">
                 <h3 className="td_team_member_title td_fs_18 td_semibold mb-0">
                 Mr. Bilal Saeed Ahmed
@@ -109,11 +111,11 @@ Through its dedicated oversight and commitment, the School Management Council he
             data-wow-delay="0.3s"
           >
             <div className="td_team td_style_1 text-center position-relative">
-              <img
+              {/* <img
                 src={waqar}
                 alt="Mr. Agha Aamir Raza"
                 className="w-100 td_radius_10"
-              />
+              /> */}
               <div className="td_team_info td_white_bg">
                 <h3 className="td_team_member_title td_fs_18 td_semibold mb-0">
                   Mr. Agha Aamir Raza
@@ -130,11 +132,11 @@ Through its dedicated oversight and commitment, the School Management Council he
             data-wow-delay="0.3s"
           >
             <div className="td_team td_style_1 text-center position-relative">
-              <img
+              {/* <img
                 src={waqar}
                 alt="Dr. Waqar Ahmed"
                 className="w-100 td_radius_10"
-              />
+              /> */}
               <div className="td_team_info td_white_bg">
                 <h3 className="td_team_member_title td_fs_18 td_semibold mb-0">
                   Dr. Waqar Ahmed
@@ -151,11 +153,11 @@ Through its dedicated oversight and commitment, the School Management Council he
             data-wow-delay="0.3s"
           >
             <div className="td_team td_style_1 text-center position-relative">
-              <img
+              {/* <img
                 src={waqar}
                 alt="Mr. Rizwan Ahmed"
                 className="w-100 td_radius_10"
-              />
+              /> */}
               <div className="td_team_info td_white_bg">
                 <h3 className="td_team_member_title td_fs_18 td_semibold mb-0">
                  Mr. Rizwan Ahmed
@@ -166,17 +168,18 @@ Through its dedicated oversight and commitment, the School Management Council he
               </div>
             </div>
           </div>
+           <div className="td_height_60 td_height_lg_40" />
           <div
             className="col-lg-3 col-sm-6 wow fadeInUp"
             data-wow-duration="1s"
             data-wow-delay="0.3s"
           >
             <div className="td_team td_style_1 text-center position-relative">
-              <img
+              {/* <img
                 src={waqar}
                 alt="Mr. Sajjadullah Khan"
                 className="w-100 td_radius_10"
-              />
+              /> */}
               <div className="td_team_info td_white_bg">
                 <h3 className="td_team_member_title td_fs_18 td_semibold mb-0">
                  Mr. Sajjadullah Khan
@@ -193,11 +196,11 @@ Through its dedicated oversight and commitment, the School Management Council he
             data-wow-delay="0.3s"
           >
             <div className="td_team td_style_1 text-center position-relative">
-              <img
+              {/* <img
                 src={waqar}
                 alt="Mr. Babur Ali"
                 className="w-100 td_radius_10"
-              />
+              /> */}
               <div className="td_team_info td_white_bg">
                 <h3 className="td_team_member_title td_fs_18 td_semibold mb-0">
                  Mr. Babur Ali

@@ -127,10 +127,10 @@ Secondary No. 7806, Al Rehab District<br />
             </p>
             <ul className="td_footer_widget_menu">
               <li>
-                <Link href="/terms">Terms & Conditions</Link>
+                <Link href="/terms-condition">Terms & Conditions</Link>
               </li>
               <li>
-                <Link href="/privacy">Privacy & Policy</Link>
+                <Link href="/">Privacy & Policy</Link>
               </li>
             </ul>
           </div>
