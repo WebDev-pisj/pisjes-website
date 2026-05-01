@@ -70,12 +70,12 @@ export const TeamPisjes = () => {
             Leadership
           </h2>
           <p className="td_section_subtitle td_fs_18 mb-0">
-          Our Principal & Vice Principal provides overall leadership and strategic direction for the school. With a strong focus on academic excellence and student well-being, the Principal ensures that the school’s vision and mission are effectively implemented while maintaining high standards in teaching, learning, and discipline.  </p>
+          Our Principal provides overall leadership and strategic direction for the school. With a strong focus on academic excellence and student well-being, the Principal ensures that the school’s vision and mission are effectively implemented while maintaining high standards in teaching, learning, and discipline.  </p>
         </div>
         <div className="td_height_50 td_height_lg_50" />
 
         <div className="row td_gap_y_30">
-          <div
+        {/*   <div
             className="col-lg-3 col-sm-6 wow fadeInUp"
             data-wow-duration="1s"
             data-wow-delay="0.25s"
@@ -95,7 +95,7 @@ export const TeamPisjes = () => {
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
           <div
             className="col-lg-3 col-sm-6 wow fadeInUp"
             data-wow-duration="1s"
@@ -112,7 +112,7 @@ export const TeamPisjes = () => {
                   Zeeshan Ahmed Khan
                 </h3>
                 <p className="td_team_member_designation mb-0 td_fs_14 td_opacity_7 td_heading_color">
-                 Vice.Principal
+                 Acting.Principal
                 </p>
               </div>
             </div>

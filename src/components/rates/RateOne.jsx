@@ -17,12 +17,13 @@ export const RateOne = () => {
       <div className="td_rate_heading td_fs_20 td_semibold td_white_color">
         School Accredation
         <div className="td_rating_wrap">
-          <div className="td_rating" data-rating="5">
+          <div className="td_rating" data-rating="7">
             <i className="fa-regular fa-star"></i>
             <i className="fa-regular fa-star"></i>
             <i className="fa-regular fa-star"></i>
             <i className="fa-regular fa-star"></i>
             <i className="fa-regular fa-star"></i>
+            
             <div className="td_rating_percentage">
               <i className="fa-solid fa-star fa-fw"></i>
               <i className="fa-solid fa-star fa-fw"></i>
