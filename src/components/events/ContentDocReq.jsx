@@ -251,7 +251,7 @@ Copies of: (Each Copy on Separate Page) <br/> </p>
                             strokeLinejoin="round"
                           ></path>
                         </svg>
-                       Parent's visa page (if Iqama under process)
+                       Parent&apos;s visa page (if Iqama under process)
                       </li>
                       <li>
                         <svg
