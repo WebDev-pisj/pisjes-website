@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useTabs } from "../../lib/hooks/useTabs";
 import { VideoPlayer } from "../videos/VideoPlayer";
 
-const aboutImg1 = "/home_1/rire.jpg";
+const aboutImg1 = "/home_1/rire.png";
 const aboutImg2 = "/home_5/about_img_2.jpg";
 const aboutShape2 = "/home_5/about_shape_2.svg";
 

@@ -12922,11 +12922,11 @@ button.td_icon_btn:hover {
   flex-direction: column;
 }
 .td_testimonial.td_style_1 .td_testimonial_meta img {
-  height: 160px;
+  height: 190px;
   width: 160px;
   -o-object-fit: cover;
   object-fit: cover;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   -webkit-box-flex: 0;
   -ms-flex: none;
   flex: none;
@@ -12947,6 +12947,7 @@ button.td_icon_btn:hover {
 } */
 .td_testimonial.td_style_1 .td_testimonial_text {
   letter-spacing: 0.4px;
+  height: 70px;
 }
 .td_testimonial.td_style_1.td_type_1 {
   border-radius: 10px;

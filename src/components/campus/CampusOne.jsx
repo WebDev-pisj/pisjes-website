@@ -115,7 +115,7 @@ We offer diverse opportunities including clubs, competitions, community service,
                   data-wow-delay="0.2s"
                 >
                   <Link
-                    href="/student-clubs"
+                    href="/"
                     className="td_card_thumb d-block"
                   >
                     <img
@@ -126,10 +126,10 @@ We offer diverse opportunities including clubs, competitions, community service,
                   </Link>
                   <div className="td_card_info">
                     <h2 className="td_card_title mb-0 td_fs_18 td_semibold td_white_color">
-                      <Link href="/student-clubs">Student Clubs</Link>
+                      <Link href="/">Student Clubs</Link>
                     </h2>
-                    <Link href="/student-clubs" className="td_card_btn">
-                      <svg
+                    <Link href="/" className="td_card_btn">
+                      {/* <svg
                         width="23"
                         height="24"
                         viewBox="0 0 23 24"
@@ -172,7 +172,7 @@ We offer diverse opportunities including clubs, competitions, community service,
                           strokeLinecap="round"
                           strokeLinejoin="round"
                         />
-                      </svg>
+                      </svg> */}
                     </Link>
                   </div>
                 </div>
@@ -183,7 +183,7 @@ We offer diverse opportunities including clubs, competitions, community service,
                   data-wow-delay="0.3s"
                 >
                   <Link
-                    href="/student-house-system"
+                    href="/"
                     className="td_card_thumb d-block"
                   >
                     <img
@@ -194,10 +194,10 @@ We offer diverse opportunities including clubs, competitions, community service,
                   </Link>
                   <div className="td_card_info">
                     <h2 className="td_card_title mb-0 td_fs_18 td_semibold td_white_color">
-                      <Link href="/course-details">Student Career Counselling</Link>
+                      <Link href="/">Student Career Counselling</Link>
                     </h2>
-                    <Link href="/course-details" className="td_card_btn">
-                      <svg
+                    <Link href="/" className="td_card_btn">
+                    {/*   <svg
                         width="23"
                         height="24"
                         viewBox="0 0 23 24"
@@ -240,7 +240,7 @@ We offer diverse opportunities including clubs, competitions, community service,
                           strokeLinecap="round"
                           strokeLinejoin="round"
                         />
-                      </svg>
+                      </svg> */}
                     </Link>
                   </div>
                 </div>
@@ -253,7 +253,7 @@ We offer diverse opportunities including clubs, competitions, community service,
                   data-wow-delay="0.25s"
                 >
                   <Link
-                    href="/course-details"
+                    href="/"
                     className="td_card_thumb d-block"
                   >
                     <img
@@ -264,12 +264,12 @@ We offer diverse opportunities including clubs, competitions, community service,
                   </Link>
                   <div className="td_card_info">
                     <h2 className="td_card_title mb-0 td_fs_18 td_semibold td_white_color">
-                      <Link href="/student-house-system">
+                      <Link href="/">
                     Student House System
                       </Link>
                     </h2>
-                    <Link href="/student-house-system" className="td_card_btn">
-                      <svg
+                    <Link href="/" className="td_card_btn">
+                     {/*  <svg
                         width="23"
                         height="24"
                         viewBox="0 0 23 24"
@@ -312,7 +312,7 @@ We offer diverse opportunities including clubs, competitions, community service,
                           strokeLinecap="round"
                           strokeLinejoin="round"
                         />
-                      </svg>
+                      </svg> */}
                     </Link>
                   </div>
                 </div>
@@ -323,7 +323,7 @@ We offer diverse opportunities including clubs, competitions, community service,
                   data-wow-delay="0.3s"
                 >
                   <Link
-                    href="/course-details"
+                    href="/"
                     className="td_card_thumb d-block"
                   >
                     <img
@@ -334,10 +334,10 @@ We offer diverse opportunities including clubs, competitions, community service,
                   </Link>
                   <div className="td_card_info">
                     <h2 className="td_card_title mb-0 td_fs_18 td_semibold td_white_color">
-                      <Link href="/course-details">Sports & Fitness</Link>
+                      <Link href="/">Sports & Fitness</Link>
                     </h2>
-                    <Link href="/course-details" className="td_card_btn">
-                      <svg
+                    <Link href="/" className="td_card_btn">
+                      {/* <svg
                         width="23"
                         height="24"
                         viewBox="0 0 23 24"
@@ -380,7 +380,7 @@ We offer diverse opportunities including clubs, competitions, community service,
                           strokeLinecap="round"
                           strokeLinejoin="round"
                         />
-                      </svg>
+                      </svg> */}
                     </Link>
                   </div>
                 </div>
