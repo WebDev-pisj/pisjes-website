@@ -177,10 +177,10 @@ export const HeaderOne = () => {
                                   </Link>
                                 </li>
                                 <li>
-                                  <Link href="/Clearance">Clearance Of School Dues</Link>
+                                  <Link href="/dues-clearance">Clearance Of School Dues</Link>
                                 </li>
                                 <li>
-                                  <Link href="/Terms">Terms & Conditions</Link>
+                                  <Link href="/terms-condition">Terms & Conditions</Link>
                                 </li>
                               </ul>
                             </li>

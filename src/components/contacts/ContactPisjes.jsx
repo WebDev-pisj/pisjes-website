@@ -109,8 +109,7 @@ export const ContactPisjes = () => {
                 Send us a message
               </h3>
               <p className="td_white_color td_opacity_8 td_mb_30">
-                Fill in your details and your message will be sent to IT
-                Coordinator.
+                Fill in your details and your message will be sent to Administration.
               </p>
 
               <form onSubmit={handleSubmit} className="td_contact_form">

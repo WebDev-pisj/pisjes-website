@@ -1,4 +1,4 @@
-import { CtaAdmDoc } from "@/components/cta/CtaAdmDoc";
+import { ContentDocReq } from "@/components/events/ContentDocReq";
 import { Layout } from "@/layouts/Layout";
 
 export default function AdmissionDocuments() {
@@ -7,7 +7,7 @@ export default function AdmissionDocuments() {
       breadcrumbTitle={"Admissions"}
       breadcrumbSubtitle={"Documents Required"}
     >
-      <CtaAdmDoc />
+      <ContentDocReq />
     </Layout>
   );
 }
