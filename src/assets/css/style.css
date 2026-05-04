@@ -127,7 +127,12 @@
 .td_theme_3 h6 {
   font-weight: 600;
 }
-
+.text-center{ 
+  text-align: center;
+}
+.text-justify{ 
+  text-align: justify;
+}
 .td_theme_4 {
   --accent-color: #006766;
 }
@@ -135,7 +140,11 @@
 .td_theme_5 {
   --accent-color: #21225f;
 }
-
+.td_accordian_body a:hover {
+    color: #21225f;
+    text-decoration: underline;
+   
+}
 .td_theme_6 {
   --accent-color: #006766;
   --heading-font: "Adobe Garamond Pro", sans-serif;
@@ -4429,12 +4438,12 @@ label {
   }
 }
 .td_image_box.td_style_6 .td_image_box_img_1 {
-  padding-right: 26%;
+  padding-right: 16%;
   position: relative;
   z-index: 2;
 }
 .td_image_box.td_style_6 .td_image_box_img_1 img {
-  border-radius: 250px;
+  border-radius: 50px;
 }
 .td_image_box.td_style_6 .td_image_box_img_2 {
   position: absolute;

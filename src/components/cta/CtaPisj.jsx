@@ -1,7 +1,8 @@
 import React from "react";
 import Link from "next/link";
 
-const ctaImg = "/home_1/graduation-ceremony-16.jpg";
+
+const aboutImg1 = "/home_1/rire.png";
 
 export const CtaPisj = () => {
   return (
@@ -15,7 +16,7 @@ export const CtaPisj = () => {
             data-wow-delay="0.3s"
           >
             <div className="td_cta_img">
-              <img src={ctaImg} alt="CTA" />
+              <img src={aboutImg1} alt="CTA" />
             </div>
           </div>
           <div

@@ -36,15 +36,7 @@ export const PisjesCurriculum = () => {
                   <div className="td_image_box_img_2_in">
                     <img src={aboutImg2} alt="About" />
 
-                    <VideoPlayer
-                      trigger={
-                        <a href="#vid002" className="td_video_open">
-                          <span className="td_player_btn td_center">
-                            <span></span>
-                          </span>
-                        </a>
-                      }
-                    />
+                 
                   </div>
                 </div>
                 <div className="td_image_box_shape_1 position-absolute" />
@@ -127,15 +119,7 @@ Students learn integrated, motor, cognitive and social learning skills with lots
                   <div className="td_image_box_img_2_in">
                     <img src={aboutImg2} alt="About" />
 
-                    <VideoPlayer
-                      trigger={
-                        <a href="#vid002" className="td_video_open">
-                          <span className="td_player_btn td_center">
-                            <span></span>
-                          </span>
-                        </a>
-                      }
-                    />
+                  
                   </div>
                 </div>
                 <div className="td_image_box_shape_1 position-absolute" />
@@ -177,15 +161,7 @@ Students learn integrated, motor, cognitive and social learning skills with lots
                   <div className="td_image_box_img_2_in">
                     <img src={aboutImg2} alt="About" />
 
-                    <VideoPlayer
-                      trigger={
-                        <a href="#vid002" className="td_video_open">
-                          <span className="td_player_btn td_center">
-                            <span></span>
-                          </span>
-                        </a>
-                      }
-                    />
+                   
                   </div>
                 </div>
                 <div className="td_image_box_shape_1 position-absolute" />
@@ -258,15 +234,7 @@ The academic environment on campus is purposeful, stimulating and challenging in
                   <div className="td_image_box_img_2_in">
                     <img src={aboutImg2} alt="About" />
 
-                    <VideoPlayer
-                      trigger={
-                        <a href="#vid002" className="td_video_open">
-                          <span className="td_player_btn td_center">
-                            <span></span>
-                          </span>
-                        </a>
-                      }
-                    />
+                   
                   </div>
                 </div>
                 <div className="td_image_box_shape_1 position-absolute" />

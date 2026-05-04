@@ -20,7 +20,7 @@ export const ContentAdmissionGuideline = () => {
                 <div className="td_card_info_in">
                   
                   <h2 className="td_card_title td_fs_38 td_mb_50">
-                    {`Fee Payment Policy`}
+                    {`Admission Form Submission Guideline:`}
                   </h2>
                  
                  
@@ -49,8 +49,7 @@ export const ContentAdmissionGuideline = () => {
                             strokeLinejoin="round"
                           ></path>
                         </svg>
-                      The tuition fee is payable in two advance installments i.e. (Sep. to Jan) & (Feb to Jun). However, the parents may pay the same in 10 monthly, timely installments.
-                      </li>
+                     Kindly upload the required documents, i.e., Iqama, Absher (desktop version), Passport, passport-size photos with white background, birth certificate, SLC (if not currently enrolled in any school), Fee clearance certificate, Final term report card (if issued), and all the previous report cards.  </li>
                       <li>
                         <svg
                           className="td_accent_color"
@@ -74,13 +73,38 @@ export const ContentAdmissionGuideline = () => {
                             strokeLinejoin="round"
                           ></path>
                         </svg>
-                      Monthly payment facility neither affect the yearly fee structure nor parents liability towards school; Full Term fee is payable in the case of admission or withdrawal during the term.
-                      </li>
-                  
+                     Please submit the form online after uploading all the documents and visit the admission office according to your given appointment. </li>
+                      <li>
+                        <svg
+                          className="td_accent_color"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <circle
+                            cx="12"
+                            cy="12"
+                            r="12"
+                            fill="currentColor"
+                          ></circle>
+                          <path
+                            d="M7.5 14.1136C7.5 14.1136 8.52273 14.1136 9.88636 16.5C9.88636 16.5 13.6765 10.25 17.0455 9"
+                            stroke="white"
+                            strokeWidth="0.8"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                          ></path>
+                        </svg>
+                     It is mandatory that parents provide a hard copy of the completed admission form along with the other documents at the time of visiting the school (photocopy facility is not available). 
+                  </li>
                     </ul>
-                  </div>
+                 </div>
 
                 </div>
+                 <p className="td_mb_30 td_fs_18 text-center"><b>Note: Parents should strictly follow the appointment timings otherwise, their form will not be processed. No manual application will be accepted by the admissions office (the school will not provide the facility to print the documents or admission form).</b></p>
+              
               </div>
             </div>
              <div className="td_card td_style_1 td_type_3">
@@ -89,12 +113,15 @@ export const ContentAdmissionGuideline = () => {
                 <div className="td_card_info_in">
                   
                   <h2 className="td_card_title td_fs_38 td_mb_50">
-                    {`Transport Facility`}
+                    {`Verification Procedure Guideline`}
                   </h2>
                  
                  
                   <div className="td_mb_40">
+                 <p className="td_mb_30 td_fs_18 text-center"><b> Date:	21st and 23rd till 25th August 2025 
+Token Timings: 8:30 AM 2:30 PM </b></p>
                     <ul className="td_list td_style_2 td_type_2 td_fs_18 td_medium td_heading_color td_mp_0">
+                   
                       <li>
                         <svg
                           className="td_accent_color"
@@ -118,7 +145,7 @@ export const ContentAdmissionGuideline = () => {
                             strokeLinejoin="round"
                           ></path>
                         </svg>
-                     This optional facility is only available upon advance arrangement with school and at a payment of Full Term Transport Fee.  </li>
+                     Parents are requested to enter school from Gate No.1. </li>
                       <li>
                         <svg
                           className="td_accent_color"
@@ -142,31 +169,7 @@ export const ContentAdmissionGuideline = () => {
                             strokeLinejoin="round"
                           ></path>
                         </svg>
-                      Full Term Transport Fee is payable even if the bus is utilized for a part of the term. For cancellation of Transport Service, a minimum of Ten (10) Days Advance Notice is required before the end of the term, otherwise the next Term Transport Fee will also be charged in full.    </li>
-                      <li>
-                        <svg
-                          className="td_accent_color"
-                          width="24"
-                          height="24"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <circle
-                            cx="12"
-                            cy="12"
-                            r="12"
-                            fill="currentColor"
-                          ></circle>
-                          <path
-                            d="M7.5 14.1136C7.5 14.1136 8.52273 14.1136 9.88636 16.5C9.88636 16.5 13.6765 10.25 17.0455 9"
-                            stroke="white"
-                            strokeWidth="0.8"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                          ></path>
-                        </svg>
-                      In case of an emergency situation, the Transport facility may be used up to a month upon a minimum payment of one full month’s charges for the zone.
+                      Please take a Token for the Admission Office from the token machine in the reception area near gate “1” and wait for your turn in the designated waiting area.
                       </li>
             
                     </ul>
@@ -181,7 +184,7 @@ export const ContentAdmissionGuideline = () => {
                 <div className="td_card_info_in">
                   
                   <h2 className="td_card_title td_fs_38 td_mb_50">
-                    {`Fine and Penalties`}
+                    {`Copies of: (Each Copy on a Separate Page):`}
                   </h2>
                  
                  
@@ -210,7 +213,7 @@ export const ContentAdmissionGuideline = () => {
                             strokeLinejoin="round"
                           ></path>
                         </svg>
-                     The fees/dues Payment must be made by the 10th of each month. </li>
+                  Students’ and parents’ valid digital Iqama/Absher (Screenshot of desktop version) and passport. </li>
                       <li>
                         <svg
                           className="td_accent_color"
@@ -234,7 +237,7 @@ export const ContentAdmissionGuideline = () => {
                             strokeLinejoin="round"
                           ></path>
                         </svg>
-                    A fine of SR 5/- per child per day will be charged after the due date.  </li>
+                   Student’s birth certificate/Form B and CNIC. </li>
                       <li>
                         <svg
                           className="td_accent_color"
@@ -258,8 +261,7 @@ export const ContentAdmissionGuideline = () => {
                             strokeLinejoin="round"
                           ></path>
                         </svg>
-                        If the Fee remains unpaid until 20th day of the month, the student will be barred from attending classes.
-                      </li>
+                        Student’s birth vaccination/immunization certificate.  </li>
                       <li>
                         <svg
                           className="td_accent_color"
@@ -283,8 +285,7 @@ export const ContentAdmissionGuideline = () => {
                             strokeLinejoin="round"
                           ></path>
                         </svg>
-                       If the fee remains unpaid till the end of the month, the student’s registration will be terminated. If the School Fee is paid after the registration termination, a rejoining fee of SR 500/- will be charged.
-                      </li>
+                       Student’s report cards for all previous academic years. (Not applicable for kindergarten) </li>
                       <li>
                         <svg
                           className="td_accent_color"
@@ -308,8 +309,7 @@ export const ContentAdmissionGuideline = () => {
                             strokeLinejoin="round"
                           ></path>
                         </svg>
-                       This is a fixed policy, therefore no further reminders will be sent and no discussion entered into.
-                      </li>
+                      Fee Clearance certificate from the previous school (if the previous school is within the Kingdom) </li>
                       <li>
                         <svg
                           className="td_accent_color"
@@ -333,8 +333,7 @@ export const ContentAdmissionGuideline = () => {
                             strokeLinejoin="round"
                           ></path>
                         </svg>
-                      In case of one-month absence without information or leaving School without written notice, Security Deposit will be withheld & admission will be cancelled.
-                      </li>
+                      Original school leaving certificate from the previous school. (Hard copy) </li>
                       <li>
                         <svg
                           className="td_accent_color"
@@ -358,7 +357,7 @@ export const ContentAdmissionGuideline = () => {
                             strokeLinejoin="round"
                           ></path>
                         </svg>
-                      Re-admission will be subject to the availability of seat and re-payment of all admission dues, fee defaulters will not be allowed to continue in the School until all School dues are paid.
+                     Three (3) passport-size photographs with a white background 
                       </li>
                   
                     </ul>
@@ -373,7 +372,7 @@ export const ContentAdmissionGuideline = () => {
                 <div className="td_card_info_in">
                   
                   <h2 className="td_card_title td_fs_38 td_mb_50">
-                    {`Withdrawal from the School`}
+                    {`Note:`}
                   </h2>
                  
                  
@@ -402,7 +401,8 @@ export const ContentAdmissionGuideline = () => {
                             strokeLinejoin="round"
                           ></path>
                         </svg>
-                    To withdraw a child, parents must inform the school at least Fifteen (15) Days in Advance in writing for timely preparation of the School Leaving Certificate (SLC) & Security Refund Cheque. </li>
+                        After successful verification of your data and documents, you will be assigned a parent and student code for each applicant
+                  </li>
                       <li>
                         <svg
                           className="td_accent_color"
@@ -426,8 +426,8 @@ export const ContentAdmissionGuideline = () => {
                             strokeLinejoin="round"
                           ></path>
                         </svg>
-                    The SLC & Result Card are issued only after clearance, which is: return of all School books and belongings, and on full payment of all outstanding dues/fines (if any). </li>
-                      <li>
+                   You can then go to the Accounts office and pay admission charges according to the fee structure mentioned on our website. Please visit Fee Structure for more information.</li>  
+                    <li>
                         <svg
                           className="td_accent_color"
                           width="24"
@@ -450,9 +450,57 @@ export const ContentAdmissionGuideline = () => {
                             strokeLinejoin="round"
                           ></path>
                         </svg>
-                        If withdrawal notice is received after the beginning of new term, clearance will only be issued after the payment of Full Term Fee for that term, otherwise School will not issue SLC and Security Deposit will be withheld.         </li>
+                        Classes will only be allocated on submission of all the above-mentioned documents. </li>
                     
-                     
+                     <li>
+                        <svg
+                          className="td_accent_color"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <circle
+                            cx="12"
+                            cy="12"
+                            r="12"
+                            fill="currentColor"
+                          ></circle>
+                          <path
+                            d="M7.5 14.1136C7.5 14.1136 8.52273 14.1136 9.88636 16.5C9.88636 16.5 13.6765 10.25 17.0455 9"
+                            stroke="white"
+                            strokeWidth="0.8"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                          ></path>
+                        </svg>
+                       Kindly make sure that your ward’s Noor System file is archived or transferred to "Pakistan International School Jeddah English Section" by 24th August 2025. Per the M.O.E. instructions, the student cannot attend the class without transferring into the Noor System. </li>
+                  
+                     <li>
+                        <svg
+                          className="td_accent_color"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <circle
+                            cx="12"
+                            cy="12"
+                            r="12"
+                            fill="currentColor"
+                          ></circle>
+                          <path
+                            d="M7.5 14.1136C7.5 14.1136 8.52273 14.1136 9.88636 16.5C9.88636 16.5 13.6765 10.25 17.0455 9"
+                            stroke="white"
+                            strokeWidth="0.8"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                          ></path>
+                        </svg>
+                       New students coming from outside the kingdom are not required to transfer into the Noor system. </li>
                   
                     </ul>
                   </div>
