@@ -4,7 +4,6 @@ import { readFile } from "fs/promises";
 import * as XLSX from "xlsx";
 
 const DEFAULT_RESULTS_PATH = path.join(process.cwd(), "secure-data", "results.ods");
-const PRODUCTION_ENV = "production";
 const ROLL_NO_PATTERN = /^[A-Za-z0-9-]{3,20}$/;
 const EXPECTED_COLUMNS = [
   "Reg_No",
@@ -70,19 +69,12 @@ const normalizeRow = (row) => {
 export const sanitizeRollNumber = (value) => String(value ?? "").trim().toUpperCase();
 
 const loadWorkbookBuffer = async () => {
-  const isProduction = process.env.NODE_ENV === PRODUCTION_ENV;
-  const blobUrl = process.env.RESULTS_BLOB_URL;
-
-  if (isProduction && blobUrl) {
-    const response = await fetch(blobUrl, { cache: "no-store" });
-    if (!response.ok) {
-      throw new Error(`Unable to fetch blob file. Status: ${response.status}`);
-    }
-    const arrayBuffer = await response.arrayBuffer();
-    return Buffer.from(arrayBuffer);
-  }
-
-  const excelPath = process.env.RESULTS_EXCEL_PATH || DEFAULT_RESULTS_PATH;
+  const configuredPath = process.env.RESULTS_EXCEL_PATH;
+  const excelPath = configuredPath
+    ? path.isAbsolute(configuredPath)
+      ? configuredPath
+      : path.join(process.cwd(), configuredPath)
+    : DEFAULT_RESULTS_PATH;
   return readFile(excelPath);
 };
 

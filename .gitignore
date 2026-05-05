@@ -12,5 +12,3 @@ node_modules
 .env
 *.log
 package-lock.js
-secure-data/*.xlsx
-secure-data/results.ods
