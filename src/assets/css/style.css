@@ -4444,6 +4444,7 @@ label {
 }
 .td_image_box.td_style_6 .td_image_box_img_1 img {
   border-radius: 50px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
 }
 .td_image_box.td_style_6 .td_image_box_img_2 {
   position: absolute;
@@ -8059,7 +8060,7 @@ Announcement Popup
   position: relative;
 }
 .td_site_header.td_style_1 .td_main_header_in {
-  height: 90px;
+  height: 100px;
 }
 .td_site_header.td_style_1 .td_top_header_in {
   height: 50px;
@@ -8983,7 +8984,7 @@ Announcement Popup
     position: relative;
   }
   .td_site_header.td_style_1 .td_main_header_in {
-    height: 80px;
+    height: 100px;
   }
   .td_site_header .current-menu-item > a:before {
     display: none;

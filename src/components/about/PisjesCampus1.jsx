@@ -7,6 +7,14 @@ const aboutImg1 = "/home_8/about_img_1.jpg";
 const aboutImg2 = "/home_8/about_img_2.jpg";
 const aboutShape2 = "/home_8/about_shape_2.svg";
 const aboutShape3 = "/home_8/about_shape_3.svg";
+const classes = "/home_1/classes.jpg";
+const lab = "/home_1/lab.jpg";
+const chemlabo = "/home_1/chem-labo.jpg";
+const sports = "/home_1/ground.jpg";
+const lib = "/home_1/Library.jpg";
+const canteen = "/home_1/canteen.jpg";
+const transport = "/home_1/transport.jpg";
+const clinic = "/home_1/clinic.png";
 
 export const PisjesCampus1 = () => {
   return (
@@ -24,14 +32,14 @@ export const PisjesCampus1 = () => {
                   data-wow-duration="1s"
                   data-wow-delay="0.2s"
                 >
-                  <img src={aboutImg1} alt="About" />
+                  <img src={classes} alt="About" />
                 </div>
                 <div
                   className="td_image_box_img_2 wow fadeInUp"
                   data-wow-duration="1s"
                   data-wow-delay="0.2s"
                 >
-                  <div className="td_image_box_img_2_in">
+                  {/* <div className="td_image_box_img_2_in">
                     <img src={aboutImg2} alt="About" />
 
                     <VideoPlayer
@@ -43,9 +51,9 @@ export const PisjesCampus1 = () => {
                         </a>
                       }
                     />
-                  </div>
+                  </div> */}
                 </div>
-                <div className="td_image_box_shape_1 position-absolute" />
+                <div className=" position-absolute" />
                 <div className="td_image_box_shape_2 position-absolute">
                   <img src={aboutShape2} alt="Shape" />
                 </div>
@@ -77,7 +85,7 @@ export const PisjesCampus1 = () => {
      
        <div className="td_wrap_box_1 td_radius_10">
        
-        <div className="td_height_120 td_height_lg_80" />
+        <div className="" />
         <div className="container">
           <div className="row align-items-center td_gap_y_40">
                  <div
@@ -103,10 +111,10 @@ export const PisjesCampus1 = () => {
                   data-wow-duration="1s"
                   data-wow-delay="0.2s"
                 >
-                  <img src={aboutImg1} alt="About" />
+                  <img src={lab} alt="About" />
                 </div>
              
-                <div className="td_image_box_shape_1 position-absolute" />
+                <div className=" position-absolute" />
                 <div className="td_image_box_shape_2 position-absolute">
                   <img src={aboutShape2} alt="Shape" />
                 </div>
@@ -123,7 +131,7 @@ export const PisjesCampus1 = () => {
 
       <div className="td_wrap_box_1 td_radius_10">
         
-        <div className="td_height_120 td_height_lg_80" />
+        <div className="" />
         <div className="container">
           <div className="row align-items-center td_gap_y_40">
             <div className="col-lg-6">
@@ -133,10 +141,10 @@ export const PisjesCampus1 = () => {
                   data-wow-duration="1s"
                   data-wow-delay="0.2s"
                 >
-                  <img src={aboutImg1} alt="About" />
+                  <img src={chemlabo} alt="About" />
                 </div>
                
-                <div className="td_image_box_shape_1 position-absolute" />
+                <div className=" position-absolute" />
                 <div className="td_image_box_shape_2 position-absolute">
                   <img src={aboutShape2} alt="Shape" />
                 </div>
@@ -167,7 +175,7 @@ export const PisjesCampus1 = () => {
 
       <div className="td_wrap_box_1 td_radius_10">
         
-        <div className="td_height_120 td_height_lg_80" />
+        <div className="" />
         <div className="container">
           <div className="row align-items-center td_gap_y_40">
                  <div
@@ -193,10 +201,10 @@ At PISJ-ES, mental and physical development goes hand in hand. Sports and games 
                   data-wow-duration="1s"
                   data-wow-delay="0.2s"
                 >
-                  <img src={aboutImg1} alt="About" />
+                  <img src={sports} alt="About" />
                 </div>
                
-                <div className="td_image_box_shape_1 position-absolute" />
+                <div className=" position-absolute" />
                 <div className="td_image_box_shape_2 position-absolute">
                   <img src={aboutShape2} alt="Shape" />
                 </div>
@@ -213,7 +221,7 @@ At PISJ-ES, mental and physical development goes hand in hand. Sports and games 
       
       <div className="td_wrap_box_1 td_radius_10">
        
-        <div className="td_height_120 td_height_lg_80" />
+        <div className="" />
         <div className="container">
           <div className="row align-items-center td_gap_y_40">
             <div className="col-lg-6">
@@ -223,28 +231,16 @@ At PISJ-ES, mental and physical development goes hand in hand. Sports and games 
                   data-wow-duration="1s"
                   data-wow-delay="0.2s"
                 >
-                  <img src={aboutImg1} alt="About" />
+                  <img src={lib} alt="About" />
                 </div>
                 <div
                   className="td_image_box_img_2 wow fadeInUp"
                   data-wow-duration="1s"
                   data-wow-delay="0.2s"
                 >
-                  <div className="td_image_box_img_2_in">
-                    <img src={aboutImg2} alt="About" />
-
-                    <VideoPlayer
-                      trigger={
-                        <a href="#vid002" className="td_video_open">
-                          <span className="td_player_btn td_center">
-                            <span></span>
-                          </span>
-                        </a>
-                      }
-                    />
-                  </div>
+                  
                 </div>
-                <div className="td_image_box_shape_1 position-absolute" />
+                <div className=" position-absolute" />
                 <div className="td_image_box_shape_2 position-absolute">
                   <img src={aboutShape2} alt="Shape" />
                 </div>
@@ -274,7 +270,7 @@ At PISJ-ES, mental and physical development goes hand in hand. Sports and games 
 
        <div className="td_wrap_box_1 td_radius_10">
        
-        <div className="td_height_120 td_height_lg_80" />
+        <div className="" />
         <div className="container">
           <div className="row align-items-center td_gap_y_40">
                  <div
@@ -299,7 +295,7 @@ Nutritious and healthy food helps developing smart minds and strong bodies. Our 
                   data-wow-duration="1s"
                   data-wow-delay="0.2s"
                 >
-                  <img src={aboutImg1} alt="About" />
+                  <img src={canteen} alt="About" />
                 </div>
                 
                 
@@ -319,7 +315,7 @@ Nutritious and healthy food helps developing smart minds and strong bodies. Our 
  
       <div className="td_wrap_box_1 td_radius_10">
        
-        <div className="td_height_120 td_height_lg_80" />
+        <div className="" />
         <div className="container">
           <div className="row align-items-center td_gap_y_40">
             <div className="col-lg-6">
@@ -329,7 +325,7 @@ Nutritious and healthy food helps developing smart minds and strong bodies. Our 
                   data-wow-duration="1s"
                   data-wow-delay="0.2s"
                 >
-                  <img src={aboutImg1} alt="About" />
+                  <img src={clinic} alt="About" />
                 </div>
                 
                
@@ -361,7 +357,7 @@ Nutritious and healthy food helps developing smart minds and strong bodies. Our 
       </div>
       <div className="td_wrap_box_1 td_radius_10">
         
-        <div className="td_height_120 td_height_lg_80" />
+        <div className="" />
         <div className="container">
           <div className="row align-items-center td_gap_y_40">
                  <div
@@ -394,7 +390,7 @@ To double check the accuracy of your selection, copy the number at the bottom of
                   data-wow-duration="1s"
                   data-wow-delay="0.2s"
                 >
-                  <img src={aboutImg1} alt="About" />
+                  <img src={transport} alt="About" />
                 </div>
                 
              

@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useTabs } from "../../lib/hooks/useTabs";
 import { VideoPlayer } from "../videos/VideoPlayer";
 
-const ctaImg = "/home_1/graduation-ceremony-16.jpg";
+const ctaImg = "/home_1/ss.jpg";
 const aboutImg2 = "/home_5/about_img_2.jpg";
 const aboutShape2 = "/home_5/about_shape_2.svg";
 
