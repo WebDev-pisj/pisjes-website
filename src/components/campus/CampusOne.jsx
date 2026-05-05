@@ -1,12 +1,42 @@
-import React from "react";
+"use client";
+
+import React, { useState } from "react";
 import Link from "next/link";
+import { ImageGalleryPopup } from "@/components/common/ImageGalleryPopup";
 
 const campusLife1 = "/home_1/campus_life_1.jpg";
 const campusLife2 = "/home_1/campus_life_2.jpg";
 const campusLife3 = "/home_1/campus_life_3.jpg";
 const campusLife4 = "/home_1/campus_life_4.jpg";
 
+// Per-category galleries — add / remove entries to populate each lightbox.
+const galleries = {
+  clubs: [
+    { src: campusLife1, label: "Student Clubs" },
+    { src: "/home_1/student-clubs-office-bearers.png", label: "Office Bearers" },
+  ],
+  career: [
+    { src: campusLife3, label: "Career Counselling" },
+  ],
+  house: [
+    { src: campusLife2, label: "Student House System" },
+    { src: "/home_1/student-house-system-1.png", label: "House Event" },
+    { src: "/home_1/student-house-system-2.png", label: "House Event" },
+    { src: "/home_1/student-house-system-3.png", label: "House Event" },
+  ],
+  sports: [
+    { src: campusLife4, label: "Sports & Fitness" },
+    { src: "/home_1/ground.jpg", label: "Sports Ground" },
+  ],
+};
+
 export const CampusOne = () => {
+  const [activeGallery, setActiveGallery] = useState(null);
+
+  const openGallery = (key) => setActiveGallery(key);
+  const closeGallery = () => setActiveGallery(null);
+  const activeImages = activeGallery ? galleries[activeGallery] : [];
+
   return (
     <section className="td_accent_bg td_shape_section_1">
       <div className="td_shape_position_4 td_accent_color position-absolute">
@@ -114,16 +144,17 @@ We offer diverse opportunities including clubs, competitions, community service,
                   data-wow-duration="1s"
                   data-wow-delay="0.2s"
                 >
-                  <Link
-                    href="/"
-                    className="td_card_thumb d-block"
+                  <button
+                    type="button"
+                    onClick={() => openGallery("clubs")}
+                    className="td_image_trigger_btn td_card_thumb d-block"
                   >
                     <img
                       src={campusLife1}
                       alt="Student Clubs"
-                      className="w-100"
+                      className="w-100 td_image_popup"
                     />
-                  </Link>
+                  </button>
                   <div className="td_card_info">
                     <h2 className="td_card_title mb-0 td_fs_18 td_semibold td_white_color">
                       <Link href="/">Student Clubs</Link>
@@ -182,16 +213,17 @@ We offer diverse opportunities including clubs, competitions, community service,
                   data-wow-duration="1s"
                   data-wow-delay="0.3s"
                 >
-                  <Link
-                    href="/"
-                    className="td_card_thumb d-block"
+                  <button
+                    type="button"
+                    onClick={() => openGallery("career")}
+                    className="td_image_trigger_btn td_card_thumb d-block"
                   >
                     <img
                       src={campusLife3}
                       alt="Career Counselling"
-                      className="w-100"
+                      className="w-100 td_image_popup"
                     />
-                  </Link>
+                  </button>
                   <div className="td_card_info">
                     <h2 className="td_card_title mb-0 td_fs_18 td_semibold td_white_color">
                       <Link href="/">Student Career Counselling</Link>
@@ -252,16 +284,17 @@ We offer diverse opportunities including clubs, competitions, community service,
                   data-wow-duration="1s"
                   data-wow-delay="0.25s"
                 >
-                  <Link
-                    href="/"
-                    className="td_card_thumb d-block"
+                  <button
+                    type="button"
+                    onClick={() => openGallery("house")}
+                    className="td_image_trigger_btn td_card_thumb d-block"
                   >
                     <img
                       src={campusLife2}
                       alt="House System"
-                      className="w-100"
+                      className="w-100 td_image_popup"
                     />
-                  </Link>
+                  </button>
                   <div className="td_card_info">
                     <h2 className="td_card_title mb-0 td_fs_18 td_semibold td_white_color">
                       <Link href="/">
@@ -322,16 +355,17 @@ We offer diverse opportunities including clubs, competitions, community service,
                   data-wow-duration="1s"
                   data-wow-delay="0.3s"
                 >
-                  <Link
-                    href="/"
-                    className="td_card_thumb d-block"
+                  <button
+                    type="button"
+                    onClick={() => openGallery("sports")}
+                    className="td_image_trigger_btn td_card_thumb d-block"
                   >
                     <img
                       src={campusLife4}
                       alt="Sports & Fitness"
-                      className="w-100"
+                      className="w-100 td_image_popup"
                     />
-                  </Link>
+                  </button>
                   <div className="td_card_info">
                     <h2 className="td_card_title mb-0 td_fs_18 td_semibold td_white_color">
                       <Link href="/">Sports & Fitness</Link>
@@ -390,6 +424,13 @@ We offer diverse opportunities including clubs, competitions, community service,
         </div>
       </div>
       <div className="td_height_112 td_height_lg_75" />
+
+      <ImageGalleryPopup
+        images={activeImages}
+        open={activeGallery !== null}
+        initialIndex={0}
+        onClose={closeGallery}
+      />
     </section>
   );
 };

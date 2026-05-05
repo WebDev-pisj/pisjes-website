@@ -3,6 +3,7 @@
 import React from "react";
 import Link from "next/link";
 import Countdown from "react-countdown";
+import { ImagePopup } from "@/components/common/ImagePopup";
 
 const eventThumb1 = "/home_1/img25.jpg";
 const eventThumb2 = "/home_1/img26.jpg";
@@ -357,17 +358,17 @@ export const ContentFeePayment = () => {
           </div>
           <div className="col-lg-4">
             <div className="td_card td_style_6 td_white_bg td_radius_10">
-              <img
+              <ImagePopup
                 src={eventThumb1}
                 alt="Event thumbnail"
                 className="td_radius_10 td_mb_20 w-100"
               />
-              <img
+              <ImagePopup
                 src={eventThumb2}
                 alt="Event thumbnail"
                 className="td_radius_10 td_mb_20 w-100"
               />
-               <img
+              <ImagePopup
                 src={eventThumb3}
                 alt="Event thumbnail"
                 className="td_radius_10 td_mb_20 w-100"
