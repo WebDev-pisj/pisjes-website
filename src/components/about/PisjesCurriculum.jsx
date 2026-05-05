@@ -7,6 +7,8 @@ const aboutImg1 = "/home_8/about_img_1.jpg";
 const aboutImg2 = "/home_8/about_img_2.jpg";
 const aboutShape2 = "/home_8/about_shape_2.svg";
 const aboutShape3 = "/home_8/about_shape_3.svg";
+const early = "/home_1/cta3.jpg";
+const ss = "/home_1/graduation-ceremony-16.jpg";
 
 export const PisjesCurriculum = () => {
   return (
@@ -26,28 +28,16 @@ export const PisjesCurriculum = () => {
                   data-wow-duration="1s"
                   data-wow-delay="0.2s"
                 >
-                  <img src={aboutImg1} alt="About" />
+                  <img src={early} alt="About" />
                 </div>
                 <div
                   className="td_image_box_img_2 wow fadeInUp"
                   data-wow-duration="1s"
                   data-wow-delay="0.2s"
                 >
-                  <div className="td_image_box_img_2_in">
-                    <img src={aboutImg2} alt="About" />
-
-                    <VideoPlayer
-                      trigger={
-                        <a href="#vid002" className="td_video_open">
-                          <span className="td_player_btn td_center">
-                            <span></span>
-                          </span>
-                        </a>
-                      }
-                    />
-                  </div>
+                  
                 </div>
-                <div className="td_image_box_shape_1 position-absolute" />
+                <div className=" position-absolute" />
                 <div className="td_image_box_shape_2 position-absolute">
                   <img src={aboutShape2} alt="Shape" />
                 </div>
@@ -127,15 +117,7 @@ Students learn integrated, motor, cognitive and social learning skills with lots
                   <div className="td_image_box_img_2_in">
                     <img src={aboutImg2} alt="About" />
 
-                    <VideoPlayer
-                      trigger={
-                        <a href="#vid002" className="td_video_open">
-                          <span className="td_player_btn td_center">
-                            <span></span>
-                          </span>
-                        </a>
-                      }
-                    />
+                  
                   </div>
                 </div>
                 <div className="td_image_box_shape_1 position-absolute" />
@@ -174,21 +156,9 @@ Students learn integrated, motor, cognitive and social learning skills with lots
                   data-wow-duration="1s"
                   data-wow-delay="0.2s"
                 >
-                  <div className="td_image_box_img_2_in">
-                    <img src={aboutImg2} alt="About" />
-
-                    <VideoPlayer
-                      trigger={
-                        <a href="#vid002" className="td_video_open">
-                          <span className="td_player_btn td_center">
-                            <span></span>
-                          </span>
-                        </a>
-                      }
-                    />
-                  </div>
+                  
                 </div>
-                <div className="td_image_box_shape_1 position-absolute" />
+                <div className="position-absolute" />
                 <div className="td_image_box_shape_2 position-absolute">
                   <img src={aboutShape2} alt="Shape" />
                 </div>
@@ -248,28 +218,16 @@ The academic environment on campus is purposeful, stimulating and challenging in
                   data-wow-duration="1s"
                   data-wow-delay="0.2s"
                 >
-                  <img src={aboutImg1} alt="About" />
+                  <img src={ss} alt="About" />
                 </div>
                 <div
                   className="td_image_box_img_2 wow fadeInUp"
                   data-wow-duration="1s"
                   data-wow-delay="0.2s"
                 >
-                  <div className="td_image_box_img_2_in">
-                    <img src={aboutImg2} alt="About" />
-
-                    <VideoPlayer
-                      trigger={
-                        <a href="#vid002" className="td_video_open">
-                          <span className="td_player_btn td_center">
-                            <span></span>
-                          </span>
-                        </a>
-                      }
-                    />
-                  </div>
+                  
                 </div>
-                <div className="td_image_box_shape_1 position-absolute" />
+                <div className=" position-absolute" />
                 <div className="td_image_box_shape_2 position-absolute">
                   <img src={aboutShape2} alt="Shape" />
                 </div>

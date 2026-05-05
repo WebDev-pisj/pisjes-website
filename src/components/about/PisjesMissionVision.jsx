@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useTabs } from "../../lib/hooks/useTabs";
 import { VideoPlayer } from "../videos/VideoPlayer";
 
-const aboutImg1 = "/home_1/rire.jpg";
+const ctaImg = "/home_1/ss.jpg";
 const aboutImg2 = "/home_5/about_img_2.jpg";
 const aboutShape2 = "/home_5/about_shape_2.svg";
 
@@ -24,7 +24,7 @@ export const PisjesMissionVision = () => {
           >
             <div className="td_image_box td_style_6">
               <div className="td_image_box_img_1">
-                <img src={aboutImg1} alt="About" />
+                <img src={ctaImg} alt="About" />
               </div>
               {/* <div className="td_image_box_img_2">
                 <div className="td_image_box_img_2_in">

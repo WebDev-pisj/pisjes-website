@@ -98,7 +98,7 @@ Online Registration: 25th February to 11th April 2026.<br/>
                 </div>
                 <div className="td_accordian_body">
                   <p>
-                    /entrance-exam-schedule
+                   <u> <a href="/admission-schedule"> Entrance Exam Schedule</a></u>
                   </p>
                 </div>
               </div>
@@ -124,9 +124,12 @@ Online Registration: 25th February to 11th April 2026.<br/>
                   </span>
                 </div>
                 <div className="td_accordian_body">
-                  <p>
-                   Entrance Exam Syllabus Outline
+               
+                     <p>
+                   <u> <a href="/admission-syllabus">  Entrance Exam Syllabus Outline</a></u>
                   </p>
+                  
+                
                 </div>
               </div>
     
@@ -152,7 +155,8 @@ Online Registration: 25th February to 11th April 2026.<br/>
                 </div>
                 <div className="td_accordian_body">
                   <p>
-                   Age Criteria
+                    <u> <a href="/age-criteria"> Age Criteria</a></u>
+                
                   </p>
                 </div>
               </div>
@@ -179,7 +183,9 @@ Online Registration: 25th February to 11th April 2026.<br/>
                 </div>
                 <div className="td_accordian_body">
                   <p>
-                     Required Documents for Admissions
+                     
+                    
+                       <u> <a href="/admission-documents"> Required Documents for Admissions</a></u>
                   </p>
                 </div>
               </div>
@@ -264,10 +270,10 @@ Note: Please have statement of entry stamped by the &quot;Accounts office&quot; 
                     Do you Still Have any Questions?
                   </h4>
                   <p className="td_fs_14 td_opacity_7 td_white_color td_mb_2">
-                    Call us Anytimes
+                    Call us
                   </p>
                   <h4 className="td_fs_20 td_mb_10 td_white_color mb-0">
-                    (998 009 89808)
+                    (+966-12-6738531-218/219)
                   </h4>
                 </div>
               </div>

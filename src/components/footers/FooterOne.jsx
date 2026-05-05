@@ -60,8 +60,8 @@ export const FooterOne = () => {
                 
               </ul>
               <h2 className="td_footer_widget_title td_fs_32 td_white_color td_medium">
-                Social Media
-              </h2>
+           <br/>       Social Media
+             </h2>
               <div className="td_footer_social_btns td_fs_20">
                 <a href="https://www.facebook.com/pisjesofficial1" className="td_center">
                     <i className="fa-brands fa-facebook-f"></i>

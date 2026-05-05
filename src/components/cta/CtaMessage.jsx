@@ -20,7 +20,7 @@ export const CtaMessage = () => {
             </div>
           </div> */}
           <div
-            className="col-lg-12 wow fadeIn"
+            className="col-lg-12 wow fadeIn "
             data-wow-duration="1s"
             data-wow-delay="0.2s"
           >
@@ -28,7 +28,7 @@ export const CtaMessage = () => {
               <h2 className="td_fs_48 td_white_color td_mb_25">
               Principal Message
               </h2>
-              <p className="td_mb_30 td_white_color td_opacity_7 td_fs_18">
+              <p className="td_mb_30 td_white_color text-justify td_opacity_7 td_fs_18">
                Welcome to Pakistan International School Jeddah – English Section (PISJES), a beacon of academic excellence, moral integrity, and cultural harmony in the heart of the Kingdom of Saudi Arabia.<br/>
 At PISJES, we are more than just a school, we are a thriving community where young minds are nurtured to become responsible, compassionate, and visionary citizens of tomorrow. Our mission is to provide a holistic education that not only equips students with knowledge and skills but also instills in them the timeless values of honesty, respect, empathy, and perseverance.<br/>
 We take immense pride in fostering a deep love for our homeland, Pakistan, while also cultivating a profound respect and appreciation for the Kingdom of Saudi Arabia - our gracious host and second home. Through curricular and co-curricular activities, we encourage our students to celebrate their identity, honor their heritage, and contribute positively to both nations.<br/>

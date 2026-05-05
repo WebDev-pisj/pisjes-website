@@ -5,17 +5,32 @@ import { SlickSlider } from "../slick_slider/SlickSlider";
 import { useHobble } from "../../lib/hooks/useHobble";
 
 const testimonialShape1 = "/home_3/testimonial_shape_1.svg";
-const avatar1 = "/home_1/avatar_1.png";
-const avatar2 = "/home_2/avatar_2.png";
-const avatar3 = "/home_2/avatar_3.png";
-const avatar4 = "/home_2/avatar_4.png";
+const Iqbal = "/home_1/Muhammad-Khalid-Iqbal-A2-B.jpg";
+const Imran = "/home_1/Muhammad-Mazen-Imran-Y9B7.jpg";
+const Maria = "/home_1/Maria-Khalid-Y10G1.jpg";
+const Mahnoor = "/home_1/Mahnoor-Faisal-A2-C.jpg";
+const Fatima = "/home_1/Fatima-Noor-AS-D.jpg";
+const Emana = "/home_1/Eman-Amir-Y10G4.jpg";
+const Emank = "/home_1/Emaan-Khan-26145-A2-G5.jpg";
+const Fawaz = "/home_1/Fawaz-Rizwan-Y10B1.jpg";
+const Ahmedh = "/home_1/Ahmed-Habib-A2-B.jpg";
+const Ahmeds = "/home_1/Ahmed-Hassan-Salman-Y9B2.jpg";
+const Ayaan = "/home_1/Ayaan-Pervaiz-Khan-AS-C.jpg";
+const eshal = "/home_1/Syeda-Eshal-Salman.jpg";
+const Ayaana = "/home_1/Syed-Ayan-Ahmed-AS-C.png";
+
+
+
+
+
+
 
 const testimonialData = [
   {
     id: 1,
     rating: 5,
     text: "1ST PLACE IN SAUDI ARABIA & WESTERN PROVINCE",
-    avatar: avatar1,
+    avatar: Iqbal,
     name: "M.KHALID IQBAL KHAN",
     designation: "BEST ACROSS 4",
   },
@@ -23,7 +38,7 @@ const testimonialData = [
     id: 2,
     rating: 5,
     text: "TOP IN WESTERN PROVINCE,SAUDI ARABIA COMPUTER SCIENCE",
-    avatar: avatar2,
+    avatar: Maria,
     name: "MARIA KHALID ",
     designation: "",
   },
@@ -31,7 +46,7 @@ const testimonialData = [
     id: 3,
     rating: 4.5,
     text: "TOP IN WORLD ENGLISH AS A SECOND LANGUAGE",
-    avatar: avatar3,
+    avatar: Emana,
     name: "EMAN AMIR ",
     designation: "",
   },
@@ -39,7 +54,7 @@ const testimonialData = [
     id: 4,
     rating: 5,
     text: "TOP IN SAUDI ARABIA ACCOUNTING",
-    avatar: avatar4,
+    avatar: Emank,
     name: "EMAAN KHAN ",
     designation: "",
   },
@@ -47,7 +62,7 @@ const testimonialData = [
     id: 5,
     rating: 6,
     text: "TOP IN WESTERN PROVINCE, SAUDI ARABIA COMPUTER SCIENCE",
-    avatar: avatar1,
+    avatar: Iqbal,
     name: "M.KHALID IQBAL KHAN",
     designation: "",
   },
@@ -56,7 +71,7 @@ const testimonialData = [
     id: 6,
     rating: 6,
     text: "TOP IN WORLD INFORMATION & COMMUNICATION TECHNOLOGY",
-    avatar: avatar1,
+    avatar: Emana,
     name: "EMAN AMIR ",
     designation: "",
   },
@@ -65,107 +80,90 @@ const testimonialData = [
     id: 7,
     rating: 6,
     text: "3RD PLACE IN WESTERN PROVINCE",
-    avatar: avatar1,
+    avatar: Ayaan,
     name: "AYAAN PERVAIZ KHAN ",
     designation: "BEST ACROSS 3",
   },
+  
   ,
    {
     id: 8,
     rating: 6,
-    text: "TOP IN WORLD INFORMATION & COMMUNICATION TECHNOLOGY",
-    avatar: avatar1,
-    name: "EMAN AMIR ",
-    designation: "",
-  },
-   ,
-   {
-    id: 9,
-    rating: 6,
     text: "3RD PLACE IN WESTERN PROVINCE",
-    avatar: avatar1,
-    name: "AYAAN PERVAIZ KHAN ",
-    designation: "BEST ACROSS 3",
-  },
-  ,
-   {
-    id: 10,
-    rating: 6,
-    text: "3RD PLACE IN WESTERN PROVINCE",
-    avatar: avatar1,
+    avatar: Ahmedh,
     name: "AHMED HABIB",
     designation: "BEST ACROSS 4",
   },
   ,
    {
-    id: 11,
+    id: 9,
     rating: 6,
     text: "TOP IN SAUDI ARABIA COMPUTER SCIENCE",
-    avatar: avatar1,
+    avatar: Fatima,
     name: "FATIMA NOOR",
     designation: "",
   },
     {
-    id: 12,
+    id: 10,
     rating: 6,
     text: "2ND PLACE IN WESTERN PROVINCE",
-    avatar: avatar1,
+    avatar: Ayaana,
     name: "SYED AYAN AHMED ",
     designation: "BEST ACROSS 3",
   },
     {
-    id: 13,
+    id: 11,
     rating: 6,
     text: "TOP IN WESTERN PROVINCE, SAUDI ARABIA COMPUTER SCIENCE",
-    avatar: avatar1,
+    avatar: Fawaz,
     name: "FAWAZ RIZWAN ",
     designation: "",
   },
    {
-    id: 14,
+    id: 12,
     rating: 6,
     text: "TOP IN SAUDI ARABIA URDU AS A SECOND LANGUAGE",
-    avatar: avatar1,
+    avatar: Ahmeds,
     name: "AHMED HASSAN SALMAN",
+    designation: "",
+  },
+   {
+    id: 13,
+    rating: 6,
+    text: "2ND PLACE IN WESTERN PROVINCE",
+    avatar: Mahnoor,
+    name: "MAHNOOR FAISAL",
+    designation: "BEST ACROSS THREE",
+  },
+   {
+    id: 14,
+    rating: 6,
+    text: "TOP IN SAUDI ARABIA MATHEMATICS",
+    avatar: Iqbal,
+    name: "M.KHALID IQBAL KHAN",
     designation: "",
   },
    {
     id: 15,
     rating: 6,
-    text: "2ND PLACE IN WESTERN PROVINCE",
-    avatar: avatar1,
-    name: "MAHNOOR FAISAL",
-    designation: "BEST ACROSS THREE",
+    text: "TOP IN SAUDI ARABIA PAKISTAN STUDIES",
+    avatar: Imran,
+    name: "MUHAMMAD MAZEN IMRAN",
+    designation: "",
   },
    {
     id: 16,
     rating: 6,
-    text: "TOP IN SAUDI ARABIA MATHEMATICS",
-    avatar: avatar1,
-    name: "M.KHALID IQBAL KHAN",
+    text: "TOP IN WORLD MATHEMATICS (WITHOUT COURSEWORK)",
+    avatar: eshal,
+    name: "SYEDA ESHAL SALMAN",
     designation: "",
   },
    {
     id: 17,
     rating: 6,
-    text: "TOP IN SAUDI ARABIA PAKISTAN STUDIES",
-    avatar: avatar1,
-    name: "MUHAMMAD MAZEN IMRAN",
-    designation: "",
-  },
-   {
-    id: 18,
-    rating: 6,
-    text: "TOP IN WORLD MATHEMATICS (WITHOUT COURSEWORK)",
-    avatar: avatar1,
-    name: "SYEDA ESHAL SALMAN",
-    designation: "",
-  },
-   {
-    id: 19,
-    rating: 6,
     text: "TOP IN WORLD, ENGLISH AS A SECOND LANGUAGE",
-    avatar: avatar1,
+    avatar: Maria,
     name: "MARIA KHALID",
     designation: "",
   }
