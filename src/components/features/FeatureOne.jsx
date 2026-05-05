@@ -4,7 +4,7 @@ import React from "react";
 import { useHobble } from "../../lib/hooks/useHobble";
 import Link from "next/link";
 
-const featureImg = "home_1/cta1.jpg";
+const featureImg = "home_1/cta1.JPG";
 
 export const FeatureOne = () => {
   useHobble();
