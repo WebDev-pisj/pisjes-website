@@ -2,6 +2,31 @@
 
 import React, { useEffect, useMemo, useState } from "react";
 
+const RESULT_SITUATIONS = {
+  passed_valid: {
+    title: "Passed Students",
+    body: "We congratulate you; your child has cleared the entrance exam. Kindly read the process guidelines thoroughly and click the link below to upload the documents.",
+    tone: "success",
+    showAppointment: true,
+    cta: { label: "Read Guidelines", href: "/admission-guideline" },
+  },
+  passed_iqama_expired: {
+    title: "Iqama Expiry",
+    body: "Kindly note that your child's admissions cannot be processed due to the Iqama expiration.",
+    tone: "warning",
+  },
+  passed_pending_dues: {
+    title: "Pending Dues",
+    body: "We regret to inform you that there are still outstanding dues associated with your parent ID. You are requested to clear the dues and inform the Admissions department.",
+    tone: "warning",
+  },
+  failed: {
+    title: "Failed Students",
+    body: "We regret to inform you that your child did not clear the entrance exam. We wish you all the best for the future.",
+    tone: "error",
+  },
+};
+
 export const HomeAnnouncementPopup = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [activeIndex, setActiveIndex] = useState(0);
@@ -192,34 +217,44 @@ export const HomeAnnouncementPopup = () => {
               <p className="td_result_feedback td_result_feedback_error">{error}</p>
             )}
 
-            {result && (
-              <div
-                className={`td_result_feedback ${
-                  String(result.status || "").trim().toLowerCase() === "passed"
-                    ? "td_result_feedback_success"
-                    : "td_result_feedback_error"
-                }`}
-              >
-                <p className="mb-1">
-                  <strong>Roll Number:</strong> {result.rollNumber}
-                </p>
-                <p className="mb-1">
-                  <strong>Status:</strong>{" "}
-                  {result.status}
-                </p>
-                <p className="mb-1">{result.message}</p>
-                {result.appointmentDate && (
-                  <p className="mb-0">
-                    <strong>Appointment Date:</strong> {result.appointmentDate}
+            {result && (() => {
+              const details =
+                RESULT_SITUATIONS[result.situation] || RESULT_SITUATIONS.failed;
+              return (
+                <div
+                  className={`td_result_feedback td_result_feedback_${details.tone}`}
+                >
+                  <p className="mb-1">
+                    <strong>{details.title}</strong>
                   </p>
-                )}
-                {result.appointmentTime && (
-                  <p className="mb-0">
-                    <strong>Appointment Time:</strong> {result.appointmentTime}
+                  <p className="mb-2">Dear Parents,</p>
+                  <p className="mb-2">{details.body}</p>
+                  <p className="mb-1">
+                    <strong>Roll Number:</strong> {result.rollNumber}
                   </p>
-                )}
-              </div>
-            )}
+                  {details.showAppointment && result.appointmentDate && (
+                    <p className="mb-0">
+                      <strong>Appointment Date:</strong> {result.appointmentDate}
+                    </p>
+                  )}
+                  {details.showAppointment && result.appointmentTime && (
+                    <p className="mb-0">
+                      <strong>Appointment Time:</strong> {result.appointmentTime}
+                    </p>
+                  )}
+                  {details.cta && (
+                    <a
+                      href={details.cta.href}
+                      className="td_btn td_style_1 mt-3 d-inline-block"
+                    >
+                      <span className="td_btn_in td_white_color td_accent_bg">
+                        <span>{details.cta.label}</span>
+                      </span>
+                    </a>
+                  )}
+                </div>
+              );
+            })()}
           </>
         ) : currentItem.type === "image" ? (
           <div className="td_popup_image_wrap">

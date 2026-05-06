@@ -9,6 +9,10 @@ const noStoreHeaders = {
   "Cache-Control": "no-store, max-age=0",
 };
 
+const YES_VALUES = new Set(["yes", "y", "true", "1", "expired", "paid"]);
+const isFlagYes = (value) =>
+  YES_VALUES.has(String(value ?? "").trim().toLowerCase());
+
 const getClientIp = (request) => {
   const forwardedFor = request.headers.get("x-forwarded-for");
   if (forwardedFor) {
@@ -77,19 +81,28 @@ export async function POST(request) {
     }
 
     const { student } = result;
-    const normalizedStatus = student.status.toLowerCase();
-    const isPassed = normalizedStatus === "passed";
+    const isPassed = student.status.toLowerCase() === "passed";
+    const iqamaExpired = isFlagYes(student.iqamaExpired);
+    const isPaid = isFlagYes(student.isPaid);
+
+    let situation;
+    if (!isPassed) {
+      situation = "failed";
+    } else if (iqamaExpired) {
+      situation = "passed_iqama_expired";
+    } else if (!isPaid) {
+      situation = "passed_pending_dues";
+    } else {
+      situation = "passed_valid";
+    }
+
     return NextResponse.json(
       {
         rollNumber: student.rollNumber,
         status: student.status,
-        message: isPassed
-          ? "You are passed."
-          : `Your status is ${student.status}.`,
-        iqamaExpired: student.iqamaExpired,
+        situation,
         appointmentDate: student.appointmentDate,
         appointmentTime: student.appointmentTime,
-        isPaid: student.isPaid,
       },
       { headers: noStoreHeaders }
     );
