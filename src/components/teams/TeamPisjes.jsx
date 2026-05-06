@@ -19,15 +19,15 @@ const hodchem = "/home_1/hodchem.jpg";
 const hodphy = "/home_1/hodphy.jpg";
 const hodmath = "/home_1/hodmath.jpg";
 const hodeng = "/home_1/hodeng.png";
-const hodpak = "/home_1/hodpak.jpg";
+const hodpak = "/home_1/dummy.jpg";
 const hodpe = "/home_1/hodpe.jpg";
 const hodcom = "/home_1/hodcom.jpeg";
-const hodislam = "/home_1/hodislam.jpg";
-const hodict = "/home_1/hodict.jpg";
+const hodislam = "/home_1/hodislam.jpeg";
+const hodict = "/home_1/dummy.jpg";
 const hodurdu = "/home_1/hodurdu.jpeg";
 const itcord = "/home_1/itcord.jpeg";
 const webdev = "/home_1/webdev.jpg";
-const admincord = "/home_1/admincord.jpg";
+const admincord = "/home_1/admincord.jpeg";
 const hrcord = "/home_1/hrcord.jpg";
 const careercons = "/home_1/careercons.jpg";
 const examcord = "/home_1/examcord.jpg";
@@ -35,6 +35,8 @@ const eventcord = "/home_1/eventcord.jpg";
 const ciecord = "/home_1/ciecord.jpg";
 const admissioncord = "/home_1/admissioncord.jpg";
 const financecord = "/home_1/financecord.jpg";
+const dummy = "/home_1/dummy.jpg";
+
 
 
 

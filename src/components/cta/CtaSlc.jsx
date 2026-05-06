@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-const ctaImg = "/home_1/calendar.png";
+const ctaImg = "/home_1/slc.jpg";
 
 
 export const CtaSlc = () => {

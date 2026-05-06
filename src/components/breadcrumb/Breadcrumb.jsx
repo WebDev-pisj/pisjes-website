@@ -4,7 +4,7 @@ import React from "react";
 import Link from "next/link";
 import { useHobble } from "../../lib/hooks/useHobble";
 
-const pageHeadingBg = "/others/page_heading_bg.jpg";
+const pageHeadingBg = "/others/page_heading_bg.png";
 const shape3 = "/others/page_heading_shape_3.svg";
 const shape4 = "/others/page_heading_shape_4.svg";
 const shape5 = "/others/page_heading_shape_5.svg";

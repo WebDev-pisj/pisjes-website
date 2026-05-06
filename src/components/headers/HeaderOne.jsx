@@ -66,7 +66,9 @@ export const HeaderOne = () => {
                             <li>
                               <Link href="/our-team">Team</Link>
                             </li>
-                          
+                            <li>
+                  <Link href="/principal-message">Principal&apos;s Message</Link>
+                </li>
                             <li>
                               <Link href="/our-campus">Campus</Link>
                             </li>
@@ -86,6 +88,7 @@ export const HeaderOne = () => {
                             <li>
                               <Link href="school-timings">School Timings</Link>
                             </li>
+                           
                             <li>
                               <Link href="/calendar">Academic Calendar</Link>
                             </li>

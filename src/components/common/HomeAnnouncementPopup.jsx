@@ -16,7 +16,16 @@ export const HomeAnnouncementPopup = () => {
 
   const announcements = useMemo(
     () => [
-      {
+
+       {
+        type: "announcement",
+        badge: "",
+        title: "PISJ-ES Parent Update 2026: Principal’s Message",
+        text: "Dear Parents,Please find attached a brief overview of the key initiatives and improvements introduced under the Principal’s Office during the current academic year. These steps reflect our ongoing commitment to enhancing the learning environment, strengthening student support, and ensuring continuous school developmentWe appreciate your partnership and look forward to achieving even greater milestones together.",
+        ctaLabel: "Click Here",
+        ctaLink: "/home_1/PISJ-ES-Letter-for-Parents-Initiatives-2026.pdf",
+      },
+       /* {
         type: "announcement",
         badge: "RFQ",
         title: "Request for Quotation (RFQ)  – Pakistan International School Jeddah",
@@ -24,14 +33,14 @@ export const HomeAnnouncementPopup = () => {
         ctaLabel: "Click Here",
         ctaLink: "https://portal.pisjes.edu.sa/procurement",
       },
-      {
+     {
         type: "image",
         badge: "Spotlight",
         title: "Campus Highlight",
         text: "Sample announcement visual slide.",
         imageSrc: "/home_1/campus_life_1.JPG",
         imageAlt: "Campus highlight",
-      },
+      }, */
     ],
     []
   );

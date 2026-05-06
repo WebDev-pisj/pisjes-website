@@ -49,7 +49,7 @@ export const FooterOne = () => {
                   <Link href="/principal-message">Principal&apos;s Message</Link>
                 </li>
                 <li>
-                  <Link href="/">Professional Development</Link>
+                  <Link href="https://portal.pisjes.edu.sa/career">Career Portal</Link>
                 </li>
                 <li>
                   <Link href="/home_1/leave-form.pdf">Student Leave Form</Link>

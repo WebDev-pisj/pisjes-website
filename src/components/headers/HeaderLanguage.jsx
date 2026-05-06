@@ -26,7 +26,7 @@ export const HeaderLanguage = () => {
         <span>{currentLang}</span>
         <img src={WorldIcon} alt="" className="td_header_dropdown_btn_icon" />
       </button>
-      <ul className="td_header_dropdown_list td_mp_0">
+      <ul className="td_header_dropdown_list td_mp_0 lang_button ">
         <li>
           <button type="button" onClick={() => changeLanguage("en", "English")}>
             English

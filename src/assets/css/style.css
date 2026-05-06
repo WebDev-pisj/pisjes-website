@@ -7928,6 +7928,14 @@ Announcement Popup
   background-size: 100% 2px;
   background-position: 0 calc(100% - 0px);
 }
+.lang_button li button {
+    color: #166534;
+   
+    width: 100%;
+background: #ffffff;
+    border: 1px;
+}
+
 
 .td_header_dropdown_btn {
   border-radius: 10px;
