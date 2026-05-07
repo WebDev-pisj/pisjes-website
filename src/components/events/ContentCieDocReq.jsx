@@ -162,7 +162,7 @@ export const ContentCieDocReq = () => {
 - Medium of Instruction Letter<br/>
 - Subject(s) Recommendation Letter(s)<br/>
 
-"Document requests for other grade levels must be submitted directly to Student Affairs (via parent portal)".</li>     
+Document requests for other grade levels must be submitted directly to Student Affairs (via parent portal).</li>     
                    
                    
                      

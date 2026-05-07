@@ -619,7 +619,7 @@ Token Timings: 8:00 AM 2:00 PM </b></p>
                             strokeLinejoin="round"
                           ></path>
                         </svg>
-                   Kindly make sure that your ward’s Noor System file is archived or transferred to "Pakistan International School Jeddah English Section" by 20 August 2026. Per the M.O.E. instructions, the student cannot attend the class without transferring into the Noor System.</li>
+                   Kindly make sure that your wards Noor System file is archived or transferred to Pakistan International School Jeddah English Section by 20 August 2026. Per the M.O.E. instructions, the student cannot attend the class without transferring into the Noor System.</li>
                   
                      <li>
                         <svg
