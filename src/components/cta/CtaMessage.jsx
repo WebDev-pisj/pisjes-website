@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-const ctaImg = "/home_1/pisjes-acting-principal.jpg";
+const ctaImg = "/home_1/princ-msg.jpg";
 
 
 export const CtaMessage = () => {
@@ -10,7 +10,7 @@ export const CtaMessage = () => {
       <div className="td_height_120 td_height_lg_80" />
       <div className="container">
         <div className="row align-items-center td_gap_y_40">
-          {/* <div
+         <div
             className="col-lg-6 wow fadeInLeft"
             data-wow-duration="1s"
             data-wow-delay="0.3s"
@@ -18,9 +18,9 @@ export const CtaMessage = () => {
             <div className="td_cta_img">
               <img src={ctaImg} alt="CTA" />
             </div>
-          </div> */}
+          </div> 
           <div
-            className="col-lg-12 wow fadeIn "
+            className="col-lg-6 wow fadeIn "
             data-wow-duration="1s"
             data-wow-delay="0.2s"
           >

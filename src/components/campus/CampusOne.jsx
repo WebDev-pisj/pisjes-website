@@ -4,29 +4,35 @@ import React, { useState } from "react";
 import Link from "next/link";
 import { ImageGalleryPopup } from "@/components/common/ImageGalleryPopup";
 
-const campusLife1 = "/home_1/campus_life_1.jpg";
+const clubs1 = "/home_1/clubs1.jpg";
 const campusLife2 = "/home_1/campus_life_2.jpg";
-const campusLife3 = "/home_1/campus_life_3.jpg";
-const campusLife4 = "/home_1/campus_life_4.jpg";
+const ccons1 = "/home_1/ccons1.jpg";
+const ccons2 = "/home_1/ccons2.jpg";
+const ccons3 = "/home_1/ccons3.jpg";
+const sports1 = "/home_1/sports1.png";
 
 // Per-category galleries — add / remove entries to populate each lightbox.
 const galleries = {
   clubs: [
-    { src: campusLife1, label: "Student Clubs" },
-    { src: "/home_1/student-clubs-office-bearers.png", label: "Office Bearers" },
+    { src: clubs1, label: "Student Clubs" },
+    { src: "/home_1/clubs2.jpg", label: "" },
+     { src: "/home_1/clubs3.jpg", label: "" },
   ],
   career: [
-    { src: campusLife3, label: "Career Counselling" },
+    { src: ccons1, label: "" },
+     { src: ccons2, label: "" },
+      { src: ccons3, label: "" },
   ],
   house: [
     { src: campusLife2, label: "Student House System" },
-    { src: "/home_1/student-house-system-1.png", label: "House Event" },
-    { src: "/home_1/student-house-system-2.png", label: "House Event" },
-    { src: "/home_1/student-house-system-3.png", label: "House Event" },
+    { src: "/home_1/student-house-system-1.jpg", label: "" },
+    { src: "/home_1/student-house-system-2.jpg", label: "" },
+    { src: "/home_1/student-house-system-3.jpg", label: "" },
   ],
   sports: [
-    { src: campusLife4, label: "Sports & Fitness" },
-    { src: "/home_1/ground.jpg", label: "Sports Ground" },
+    { src: sports1, label: "Sports & Fitness" },
+    { src: "/home_1/sports2.png", label: "" },
+       { src: "/home_1/sports3.jpeg", label: "" },
   ],
 };
 
@@ -150,7 +156,7 @@ We offer diverse opportunities including clubs, competitions, community service,
                     className="td_image_trigger_btn td_card_thumb d-block"
                   >
                     <img
-                      src={campusLife1}
+                      src={clubs1}
                       alt="Student Clubs"
                       className="w-100 td_image_popup"
                     />
@@ -219,7 +225,7 @@ We offer diverse opportunities including clubs, competitions, community service,
                     className="td_image_trigger_btn td_card_thumb d-block"
                   >
                     <img
-                      src={campusLife3}
+                      src={ccons1}
                       alt="Career Counselling"
                       className="w-100 td_image_popup"
                     />
@@ -361,7 +367,7 @@ We offer diverse opportunities including clubs, competitions, community service,
                     className="td_image_trigger_btn td_card_thumb d-block"
                   >
                     <img
-                      src={campusLife4}
+                      src={sports1}
                       alt="Sports & Fitness"
                       className="w-100 td_image_popup"
                     />

@@ -9,6 +9,8 @@ const aboutShape2 = "/home_8/about_shape_2.svg";
 const aboutShape3 = "/home_8/about_shape_3.svg";
 const early = "/home_1/cta3.jpg";
 const ss = "/home_1/graduation-ceremony-16.jpg";
+const js = "/home_1/js.jpg";
+const ms = "/home_1/ms.jpg";
 
 export const PisjesCurriculum = () => {
   return (
@@ -107,20 +109,16 @@ Students learn integrated, motor, cognitive and social learning skills with lots
                   data-wow-duration="1s"
                   data-wow-delay="0.2s"
                 >
-                  <img src={aboutImg1} alt="About" />
+                  <img src={js} alt="About" />
                 </div>
                 <div
                   className="td_image_box_img_2 wow fadeInUp"
                   data-wow-duration="1s"
                   data-wow-delay="0.2s"
                 >
-                  <div className="td_image_box_img_2_in">
-                    <img src={aboutImg2} alt="About" />
-
                   
-                  </div>
                 </div>
-                <div className="td_image_box_shape_1 position-absolute" />
+                <div className=" position-absolute" />
                 <div className="td_image_box_shape_2 position-absolute">
                   <img src={aboutShape2} alt="Shape" />
                 </div>
@@ -149,7 +147,7 @@ Students learn integrated, motor, cognitive and social learning skills with lots
                   data-wow-duration="1s"
                   data-wow-delay="0.2s"
                 >
-                  <img src={aboutImg1} alt="About" />
+                  <img src={ms} alt="About" />
                 </div>
                 <div
                   className="td_image_box_img_2 wow fadeInUp"

@@ -29,11 +29,11 @@ const itcord = "/home_1/itcord.jpeg";
 const webdev = "/home_1/webdev.jpg";
 const admincord = "/home_1/admincord.jpeg";
 const hrcord = "/home_1/hrcord.jpg";
-const careercons = "/home_1/careercons.jpg";
-const examcord = "/home_1/examcord.jpg";
+const careercons = "/home_1/careercons.png";
+const examcord = "/home_1/examcord.png";
 const eventcord = "/home_1/eventcord.jpg";
-const ciecord = "/home_1/ciecord.jpg";
-const admissioncord = "/home_1/admissioncord.jpg";
+const ciecord = "/home_1/ciecord.jpeg";
+const admissioncord = "/home_1/admissioncord.png";
 const financecord = "/home_1/financecord.jpg";
 const dummy = "/home_1/dummy.jpg";
 
@@ -675,7 +675,7 @@ export const TeamPisjes = () => {
           >
             <div className="td_team td_style_1 text-center position-relative">
               <img
-                src={webdev}
+                src={careercons}
                 alt="Career Counsellor"
                 className="w-100 td_radius_10"
               />

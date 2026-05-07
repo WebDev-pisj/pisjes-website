@@ -94,7 +94,7 @@ export const HeaderOne = () => {
                             </li>
                          
                             <li>
-                              <Link href="/">Document Requests ( IGCSE & A Levels)</Link>
+                              <Link href="/cie-doc-request">Document Requests ( IGCSE & A Levels)</Link>
                             </li>
                           
                            
